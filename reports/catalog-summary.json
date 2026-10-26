@@ -1,10 +1,10 @@
 {
   "entries": 169,
   "availability": {
-    "announced": 5,
+    "announced": 4,
     "available": 142,
     "beta": 2,
-    "prototype": 10,
+    "prototype": 11,
     "source-build": 10
   },
   "evidence": {

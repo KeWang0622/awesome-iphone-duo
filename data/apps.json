@@ -2856,6 +2856,27 @@
     }
   },
   {
+    "name": "Crate — iPhone Duo MPC",
+    "category": "Source projects and experiments",
+    "url": "https://devpost.com/software/crate-iphone-duo-mpc",
+    "description": "Build beats with pads below, performance information above, and hinge-controlled effects. Hackathon prototype; its creators list physical-device testing as future work.",
+    "evidence_url": "https://devpost.com/software/crate-iphone-duo-mpc",
+    "evidence_note": "Creators' hackathon submission documents laptop pads, audience cover view and fold-driven effects.",
+    "tier": "primary",
+    "limitation": "Prototype; submission says testing on a physical Duo is future work. Distinct from Crate Music Library.",
+    "checked_at": "2026-10-26",
+    "availability": "prototype",
+    "id": "crate-iphone-duo-mpc",
+    "features": [
+      "hinge-input",
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://devpost.com/software/crate-iphone-duo-mpc",
+      "posture-layout": "https://devpost.com/software/crate-iphone-duo-mpc"
+    }
+  },
+  {
     "name": "DuoBird",
     "category": "Source projects and experiments",
     "url": "https://github.com/artemnovichkov/DuoBird",
@@ -3201,27 +3222,6 @@
     "feature_evidence": {
       "posture-layout": "https://cratemusicapp.com/",
       "cover-display": "https://cratemusicapp.com/"
-    }
-  },
-  {
-    "name": "Crate — iPhone Duo MPC",
-    "category": "Previews and watchlist",
-    "url": "https://devpost.com/software/crate-iphone-duo-mpc",
-    "description": "Build beats with pads below, performance information above, and hinge-controlled effects. Hackathon prototype; its creators list physical-device testing as future work.",
-    "evidence_url": "https://devpost.com/software/crate-iphone-duo-mpc",
-    "evidence_note": "Creators' hackathon submission documents laptop pads, audience cover view and fold-driven effects.",
-    "tier": "primary",
-    "limitation": "Prototype; submission says testing on a physical Duo is future work. Distinct from Crate Music Library.",
-    "checked_at": "2026-10-26",
-    "availability": "announced",
-    "id": "crate-iphone-duo-mpc",
-    "features": [
-      "hinge-input",
-      "posture-layout"
-    ],
-    "feature_evidence": {
-      "hinge-input": "https://devpost.com/software/crate-iphone-duo-mpc",
-      "posture-layout": "https://devpost.com/software/crate-iphone-duo-mpc"
     }
   },
   {

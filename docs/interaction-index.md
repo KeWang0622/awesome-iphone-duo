@@ -60,7 +60,7 @@ Folding changes gameplay, sound, an effect or an action. A layout that merely re
 | [Accorduon](../README.md#app-accorduon) | Build from source | [Primary](https://github.com/artemnovichkov/Accorduon#readme) |
 | [Basis](../README.md#app-basis) | Prototype | [Primary](https://devpost.com/software/basis-5eykt9) |
 | [ClawKit](../README.md#app-clawkit) | Build from source | [Primary](https://github.com/artemnovichkov/ClawKit#readme) |
-| [Crate — iPhone Duo MPC](../README.md#app-crate-iphone-duo-mpc) | Announced | [Primary](https://devpost.com/software/crate-iphone-duo-mpc) |
+| [Crate — iPhone Duo MPC](../README.md#app-crate-iphone-duo-mpc) | Prototype | [Primary](https://devpost.com/software/crate-iphone-duo-mpc) |
 | [DuoBird](../README.md#app-duobird) | Build from source | [Primary](https://github.com/artemnovichkov/DuoBird#readme) |
 | [DuoCut](../README.md#app-duocut) | Build from source | [Primary](https://github.com/artemnovichkov/DuoCut#readme) |
 | [Duogami](../README.md#app-duogami) | Build from source | [Primary](https://github.com/artemnovichkov/Duogami#readme) |
@@ -166,7 +166,7 @@ A documented arrangement for laptop, book, tent, seated or other physical poses.
 | [AskMeety](../README.md#app-askmeety) | Prototype | [Primary](https://devpost.com/software/halfnote) |
 | [ClawKit](../README.md#app-clawkit) | Build from source | [Primary](https://github.com/artemnovichkov/ClawKit#readme) |
 | [Crate Music Library](../README.md#app-crate-music-library) | Beta | [Primary](https://cratemusicapp.com/) |
-| [Crate — iPhone Duo MPC](../README.md#app-crate-iphone-duo-mpc) | Announced | [Primary](https://devpost.com/software/crate-iphone-duo-mpc) |
+| [Crate — iPhone Duo MPC](../README.md#app-crate-iphone-duo-mpc) | Prototype | [Primary](https://devpost.com/software/crate-iphone-duo-mpc) |
 | [DuoRemote](../README.md#app-duoremote) | Build from source | [Primary](https://github.com/yezzer/DuoRemote) |
 | [Fold Clock](../README.md#app-fold-clock) | Announced | [Primary](https://bravely.dev/foldclock) |
 | [Foldtales: pop-up storybook](../README.md#app-foldtales-pop-up-storybook) | Prototype | [Primary](https://devpost.com/software/foldtales-the-pop-up-book-that-stands-up-inside-the-fold) |

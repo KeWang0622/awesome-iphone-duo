@@ -2,7 +2,7 @@
 
 ## 2026-10-26 — Field guide expansion
 
-- Expanded from 110 to 169 entries: 142 available apps, 10 source builds, 10 prototypes and 7 previews.
+- Expanded from 110 to 169 entries: 142 available apps, 10 source builds, 11 prototypes and 6 previews.
 - Added six interaction definitions and a source URL for every assigned feature. Generated a browsable feature index and added an offline Python search command.
 - Added a pocket-laptop decision guide, eight things to try, and a comparison of ten related discovery projects.
 - Separated local PC emulation from remote desktops, app-contained web workspaces and retro toys. Surfaced experiment limitations in the README.
