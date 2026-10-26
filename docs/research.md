@@ -19,9 +19,9 @@ The `tier` field describes where a claim comes from:
 | `reported` | Independent editorial coverage describes Duo support or behavior. |
 | `community` | A public user report supplies the evidence. |
 
-The `availability` field describes access: `available`, `source-build`, `beta`, `announced`, or `unconfirmed`. A prototype can have primary evidence while still requiring a source build. A store app can be available while its Duo behavior is supported only by a report. Neither field means we tested it.
+The `availability` field describes access: `available`, `source-build`, `prototype`, `beta`, `announced`, or `unconfirmed`. A prototype can have primary evidence without having an installable release or a verified build. A store app can be available while its Duo behavior is supported only by a report. Neither field means we tested it.
 
-Entries preserve an `evidence_url`, an explanatory note, and `checked_at`. The date records a source review, not the app's release date. A `source_url` points to app source code; availability of code alone does not establish an open-source license. Hands-on reports should name the device, OS and app versions, date, observed behavior, and limitations.
+Entries preserve an `evidence_url`, an explanatory note, and `checked_at`. The date records a source review, not the app's release date. A `source_url` points to app source code; availability of code alone does not establish an open-source license. Each feature has its own evidence URL; a source that supports a pose layout does not automatically establish hinge input or system Split View. [Test reports](testing.md) separately name the environment, device, OS and app versions, steps, date, observed behavior and limitations.
 
 ## Repository design
 
@@ -29,7 +29,9 @@ The [Awesome manifesto](https://github.com/sindresorhus/awesome/blob/main/awesom
 
 The README uses compact category lists for readability on a phone. Structured records make dates, evidence, duplicate checks, and README regeneration manageable; [Open-Source iOS Apps](https://github.com/dkhamsing/open-source-ios-apps) offers a mature example of that approach. Keeping source-build experiments and previews separate makes access requirements visible without discarding interesting ideas.
 
-An existing [awesome-iphone-duo](https://github.com/mergisi/awesome-iphone-duo) focuses on development resources. Our emphasis is applications and practical uses; we link related work rather than claiming to be the first Duo list. [FoldHunt](https://foldhunt.com/iphone-duo/) is another discovery source; its listings are leads to inspect, not substitutes for each entry's cited evidence.
+An existing [awesome-iphone-duo](https://github.com/mergisi/awesome-iphone-duo) focuses on development resources. Our emphasis is applications and practical uses; we link related work rather than claiming to be the first Duo list. [FoldHunt](https://foldhunt.com/) is another discovery source; its listings are leads to inspect, not substitutes for each entry's cited evidence.
+
+The broader [landscape review](landscape.md) compares ten directories and repositories. Several already offer feature filters, evidence or guides. This project combines a forkable dataset, inspectable per-feature sources, task recipes and dependency-free local checks; we make no claim of exclusive features or internet-wide uniqueness.
 
 ## Independence and maintenance
 

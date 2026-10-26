@@ -2,12 +2,12 @@
   {
     "id": "tiny-laptops-and-remote-desktops",
     "name": "Tiny laptops and remote desktops",
-    "description": "Screen above, keyboard or trackpad below. These apps require a separate, reachable computer; setup and supported host systems vary."
+    "description": "Remote desktops arranged like a miniature laptop. A separate, reachable Mac or PC does the computing; supported hosts and setup vary."
   },
   {
     "id": "desktop-workspaces-and-terminals",
     "name": "Desktop workspaces and terminals",
-    "description": "PXS, XeOS and StealthOS provide workspaces within an iPhone app. SSH clients connect to remote machines; read each entry for where the work runs."
+    "description": "Local workspaces, PC emulation and remote terminals. These are different ways to work: check the entry and laptop guide for where computation runs."
   },
   {
     "id": "notes-and-writing",
@@ -75,9 +75,14 @@
     "description": "Everyday workflows made more useful by the folding display."
   },
   {
+    "id": "utilities-and-measurements",
+    "name": "Utilities and measurements",
+    "description": "Hinge measurements and small tools with a documented Duo-specific use."
+  },
+  {
     "id": "source-projects-and-experiments",
     "name": "Source projects and experiments",
-    "description": "Buildable projects and prototypes, separate from ordinary downloads. Check each repository for its license, Xcode requirements and test limitations; public source does not necessarily mean an open-source license."
+    "description": "Source projects and research prototypes, separate from ordinary downloads. A prototype may have no public build; code availability does not establish an open-source license or successful hardware testing."
   },
   {
     "id": "previews-and-watchlist",

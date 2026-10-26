@@ -1,0 +1,26 @@
+{
+  "entries": 169,
+  "availability": {
+    "announced": 5,
+    "available": 142,
+    "beta": 2,
+    "prototype": 10,
+    "source-build": 10
+  },
+  "evidence": {
+    "primary": 167,
+    "reported": 2
+  },
+  "features": {
+    "cover-display": 43,
+    "expanded-layout": 59,
+    "hinge-input": 55,
+    "posture-layout": 83,
+    "split-view": 9,
+    "support-only": 15
+  },
+  "latest_source_review": "2026-10-26",
+  "categories": 18,
+  "accepted_physical_device_reports": 0,
+  "accepted_simulator_reports": 0
+}

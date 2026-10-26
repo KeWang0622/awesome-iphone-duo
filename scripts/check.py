@@ -1,74 +1,87 @@
 #!/usr/bin/env python3
-"""Check catalog integrity and local Markdown links; no network required."""
-import datetime
-import json
-import re
+"""Validate source data, generated files, test reports, and local Markdown links."""
+from collections import Counter
+from datetime import date
 from pathlib import Path
+import re
 from urllib.parse import unquote, urlsplit
-
-from build_readme import ROOT, render
-
-
-def require(condition, message):
-    if not condition:
-        raise SystemExit(message)
+from build_readme import generated_files
+from catalog_lib import ROOT, CatalogError, anchor, load_catalog, public_url, read_json, require, validate_structure
 
 
-def anchor(text):
-    text = re.sub(r"\[([^\]]+)\]\([^)]*\)", r"\1", text)
-    return re.sub(r"[^\w\- ]", "", text.lower()).replace(" ", "-")
+def validate_reports(reports, apps, schema, today=None):
+    validate_structure(reports,schema,'test reports')
+    today=today or date.today()
+    ids={a['id'] for a in apps}
+    seen=set()
+    for report in reports:
+        require(report['id'] not in seen,'Duplicate test report ID')
+        seen.add(report['id'])
+        require(report['app_id'] in ids,'Test report refers to unknown app')
+        require(date.fromisoformat(report['tested_at'])<=today,'Future hands-on test date')
+        public_url(report['evidence_url'])
+
+
+def without_code_fences(text):
+    lines = []
+    fence = None
+    for line in text.splitlines():
+        marker = re.match(r'^ {0,3}(`{3,}|~{3,})(.*)$', line)
+        if fence:
+            if marker and marker[1][0] == fence[0] and len(marker[1]) >= len(fence) and not marker[2].strip():
+                fence = None
+        elif marker:
+            fence = marker[1]
+        else:
+            lines.append(line)
+    return '\n'.join(lines)
+
+
+def markdown_anchors(text):
+    text = without_code_fences(text)
+    found=set(re.findall(r'<a id="([^"]+)"',text))
+    seen=Counter()
+    for heading in re.findall(r'^#{1,6} (.+)$',text,re.M):
+        slug=anchor(heading)
+        found.add(slug if seen[slug]==0 else f'{slug}-{seen[slug]}')
+        seen[slug]+=1
+    return found
+
+
+def check_markdown(root=ROOT):
+    for path in root.rglob('*.md'):
+        if '.git' in path.parts or path.name in {'readme-intro.md','readme-outro.md'}:
+            continue  # fragments are checked in their generated README context
+        text=without_code_fences(path.read_text())
+        require('\t' not in text,f'Tab character: {path}')
+        definitions = dict((key.strip().casefold(), value) for key, value in re.findall(r'^ {0,3}\[([^\]]+)\]:\s*<?([^\s>]+)>?',text,re.M))
+        destinations = re.findall(r'\]\(([^)\s]+)\)',text)
+        destinations.extend(definitions.values())
+        for label, reference in re.findall(r'\[([^\]]+)\]\[([^\]]*)\]', text):
+            key = (reference or label).strip().casefold()
+            require(key in definitions, f'Undefined Markdown reference in {path.name}: {key}')
+        for destination in destinations:
+            if urlsplit(destination).scheme or destination.startswith('//'):
+                continue
+            filename,_,fragment=unquote(destination).partition('#')
+            target=(path.parent/filename).resolve() if filename else path.resolve()
+            require(target.is_relative_to(root.resolve()),f'Local link leaves repository: {destination}')
+            require(target.exists(),f'Broken link in {path.name}: {destination}')
+            if fragment and target.suffix=='.md':
+                require(fragment in markdown_anchors(target.read_text()),f'Broken anchor in {path.name}: {destination}')
 
 
 def main():
-    apps = json.loads((ROOT / "data/apps.json").read_text())
-    categories = json.loads((ROOT / "data/categories.json").read_text())
-    category_names = {c["name"] for c in categories}
-    require(len(category_names) == len(categories), "Duplicate category")
-    for c in categories:
-        require(anchor(c["name"]) == c["id"], f'Wrong category anchor: {c["name"]}')
-        require(any(a["category"] == c["name"] for a in apps), f'Empty category: {c["name"]}')
-    seen = {"id": set(), "name": set(), "url": set()}
-    for app in apps:
-        for key in ("id", "name", "category", "url", "description", "evidence_url", "evidence_note", "tier", "availability", "checked_at"):
-            require(isinstance(app.get(key), str) and app[key].strip(), f'Missing {key}: {app.get("name")}')
-        for key, values in seen.items():
-            value = app[key].casefold().rstrip("/")
-            require(value not in values, f'Duplicate {key}: {app[key]}')
-            values.add(value)
-        require(re.fullmatch(r"[a-z0-9]+(?:-[a-z0-9]+)*", app["id"]), f'Invalid id: {app["id"]}')
-        require(app["category"] in category_names, f'Unknown category: {app["name"]}')
-        require(app["tier"] in {"primary", "curated", "reported", "community"}, f'Unknown evidence: {app["name"]}')
-        require(app["availability"] in {"available", "source-build", "beta", "announced", "unconfirmed"}, f'Unknown availability: {app["name"]}')
-        require(app["description"].endswith("."), f'Description needs final period: {app["name"]}')
-        date = datetime.date.fromisoformat(app["checked_at"])
-        require(date <= datetime.date.today(), f'Future check date: {app["name"]}')
-        for key in ("url", "evidence_url", "source_url"):
-            if key in app:
-                parts = urlsplit(app[key])
-                require(parts.scheme == "https" and parts.netloc, f'Invalid {key}: {app["name"]}')
-                require(not any(p in parts.query.lower() for p in ("utm_", "afid=", "affiliate=")), f'Tracking link: {app["name"]}')
-        if app["availability"] in {"beta", "announced", "unconfirmed"}:
-            require(app["category"] == "Previews and watchlist", f'Preview in released section: {app["name"]}')
-        if app["availability"] == "source-build":
-            require(app["category"] == "Source projects and experiments", f'Source build in released section: {app["name"]}')
-    require((ROOT / "README.md").read_text() == render(), "README is stale; run python3 scripts/build_readme.py")
-    for path in ROOT.rglob("*.md"):
-        # These fragments are rendered into README.md and use its relative paths.
-        if path in {ROOT / "docs/readme-intro.md", ROOT / "docs/readme-outro.md"}:
-            continue
-        text = path.read_text()
-        require("\t" not in text, f'Tab character in {path}')
-        for dest in re.findall(r"\]\(([^)\s]+)\)", text):
-            if urlsplit(dest).scheme or dest.startswith("//"):
-                continue
-            filename, _, fragment = unquote(dest).partition("#")
-            target = (path.parent / filename).resolve() if filename else path
-            require(target.exists(), f'Broken local link in {path.name}: {dest}')
-            if fragment and target.suffix == ".md":
-                headings = {anchor(h) for h in re.findall(r"^#{1,6} (.+)$", target.read_text(), re.M)}
-                require(fragment in headings, f'Broken anchor in {path.name}: {dest}')
-    print(f'OK: {len(apps)} unique entries, {len(categories)} categories, evidence fields, README and local links.')
+    try:
+        apps,categories,_=load_catalog()
+        validate_reports(read_json(ROOT/'data/test-reports.json'),apps,read_json(ROOT/'data/test-report.schema.json'))
+        for name,expected in generated_files().items():
+            require((ROOT/name).read_text()==expected,f'{name} is stale; run python3 scripts/build_readme.py')
+        check_markdown()
+        print(f'OK: {len(apps)} unique apps, {len(categories)} categories, schema, canonical identities, feature evidence, dates, generated files, test records and local links.')
+    except (CatalogError,OSError,ValueError) as error:
+        raise SystemExit(str(error)) from error
 
 
-if __name__ == "__main__":
+if __name__=='__main__':
     main()

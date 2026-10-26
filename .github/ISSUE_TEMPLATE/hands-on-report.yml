@@ -1,0 +1,55 @@
+name: Hands-on test report
+description: Document an observed Duo interaction on hardware or a simulator.
+title: "Test: "
+body:
+  - type: input
+    id: app
+    attributes:
+      label: App name or catalog ID and app version
+    validations:
+      required: true
+  - type: dropdown
+    id: environment
+    attributes:
+      label: Test environment
+      options:
+        - Physical iPhone Duo
+        - Simulator
+    validations:
+      required: true
+  - type: input
+    id: setup
+    attributes:
+      label: Device, iOS version and test date
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Reproduction steps and requirements
+      description: Include host OS, network arrangement, accessories or account tier if relevant. Never share credentials.
+    validations:
+      required: true
+  - type: dropdown
+    id: result
+    attributes:
+      label: Result for the specific behavior tested
+      options:
+        - Passed
+        - Partial
+        - Failed
+    validations:
+      required: true
+  - type: textarea
+    id: observed
+    attributes:
+      label: What happened, and what remains untested?
+    validations:
+      required: true
+  - type: input
+    id: evidence
+    attributes:
+      label: Public evidence URL
+      description: Link a recording, screenshot or detailed public report; remove personal content.
+    validations:
+      required: true

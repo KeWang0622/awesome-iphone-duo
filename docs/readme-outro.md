@@ -14,6 +14,8 @@
 - [T3: apps for day one](https://www.t3.com/tech/iphones/the-best-iphone-duo-apps-to-download-on-day-one) - Includes both releases and previews.
 - [Tom's Guide: 15 app picks](https://www.tomsguide.com/phones/iphones/ive-been-testing-dozens-of-iphone-duo-apps-heres-my-top-15-picks-so-far) - Reviewer impressions; this project's own entries remain untested.
 
+For a comparison of ten app directories and repositories, see the [landscape review](docs/landscape.md). These projects overlap with this catalog and are useful places to discover further leads.
+
 ### Related repositories
 
 - [Awesome](https://github.com/sindresorhus/awesome) - The original awesome-list ecosystem and conventions.
@@ -25,6 +27,6 @@
 
 ## Contributing
 
-Found an ingenious app or an inaccurate claim? [Suggest it or send a correction](https://github.com/KeWang0622/awesome-iphone-duo/issues/new/choose). Read the [contribution guide](CONTRIBUTING.md) for evidence requirements and the small local check command.
+Found an ingenious app or an inaccurate claim? [Suggest it or send a correction](https://github.com/KeWang0622/awesome-iphone-duo/issues/new/choose). Read the [contribution guide](CONTRIBUTING.md) for evidence requirements and editing and verification commands.
 
 Original repository content is available under [CC0 1.0](LICENSE). Linked apps and third-party materials retain their own licenses. This is an independent list; the Awesome badge does not imply inclusion in the central directory or endorsement by Apple.

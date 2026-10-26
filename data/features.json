@@ -1,0 +1,8 @@
+{
+  "hinge-input": {"label": "Hinge as input", "description": "Folding changes gameplay, sound, an effect or an action. A layout that merely resizes is not enough."},
+  "posture-layout": {"label": "Pose-aware layout", "description": "A documented arrangement for laptop, book, tent, seated or other physical poses."},
+  "cover-display": {"label": "Cover-screen experience", "description": "A documented role or continuity on the outer screen. This does not imply simultaneous use of both displays."},
+  "expanded-layout": {"label": "Expanded workspace", "description": "A documented larger canvas, multi-pane layout or additional space when open."},
+  "split-view": {"label": "Split View and multiple windows", "description": "Explicit support for system multitasking or multiple app windows. Two panels inside one app do not qualify."},
+  "support-only": {"label": "Duo support documented", "description": "The source confirms Duo support, but our record does not substantiate a more specific interaction. This is an evidence limit, not a claim that the app lacks features."}
+}

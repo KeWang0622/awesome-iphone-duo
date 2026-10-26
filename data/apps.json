@@ -9,7 +9,13 @@
     "tier": "primary",
     "availability": "available",
     "checked_at": "2026-10-26",
-    "id": "farroom"
+    "id": "farroom",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://farroom.danielren.tz/"
+    }
   },
   {
     "name": "Headroom",
@@ -21,7 +27,17 @@
     "tier": "primary",
     "availability": "available",
     "checked_at": "2026-10-26",
-    "id": "headroom"
+    "id": "headroom",
+    "features": [
+      "posture-layout",
+      "cover-display",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/headroom-remote-desktop/id6790331904",
+      "cover-display": "https://apps.apple.com/us/app/headroom-remote-desktop/id6790331904",
+      "expanded-layout": "https://apps.apple.com/us/app/headroom-remote-desktop/id6790331904"
+    }
   },
   {
     "name": "LumenDesk",
@@ -36,7 +52,17 @@
     "id": "lumendesk",
     "additional_evidence_urls": [
       "https://lumendesk.dev/"
-    ]
+    ],
+    "features": [
+      "posture-layout",
+      "cover-display",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/lumendesk/id6812616599",
+      "cover-display": "https://apps.apple.com/us/app/lumendesk/id6812616599",
+      "expanded-layout": "https://apps.apple.com/us/app/lumendesk/id6812616599"
+    }
   },
   {
     "name": "Remio",
@@ -48,7 +74,13 @@
     "tier": "primary",
     "availability": "available",
     "checked_at": "2026-10-26",
-    "id": "remio"
+    "id": "remio",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://github.com/remioapp/releases"
+    }
   },
   {
     "name": "Scry",
@@ -60,7 +92,15 @@
     "tier": "primary",
     "availability": "available",
     "checked_at": "2026-10-26",
-    "id": "scry"
+    "id": "scry",
+    "features": [
+      "posture-layout",
+      "cover-display"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://bravely.dev/iphone-duo",
+      "cover-display": "https://bravely.dev/iphone-duo"
+    }
   },
   {
     "name": "Sill",
@@ -73,7 +113,35 @@
     "availability": "available",
     "source_url": "https://github.com/Saffsanity/sill",
     "checked_at": "2026-10-26",
-    "id": "sill"
+    "id": "sill",
+    "features": [
+      "posture-layout",
+      "cover-display",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://github.com/Saffsanity/sill",
+      "cover-display": "https://github.com/Saffsanity/sill",
+      "expanded-layout": "https://github.com/Saffsanity/sill"
+    }
+  },
+  {
+    "name": "Agent HUD",
+    "category": "Desktop workspaces and terminals",
+    "url": "https://apps.apple.com/us/app/agent-hud/id6812113619",
+    "description": "Follow AI agents running on your Mac with session details beside the session list and token charts beside recent usage.",
+    "evidence_url": "https://apps.apple.com/us/app/agent-hud/id6812113619",
+    "evidence_note": "Version 1.6 documents Duo's landscape panes and retaining the selected session across folding. Requires the companion Mac app.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "expanded-layout": "https://apps.apple.com/us/app/agent-hud/id6812113619"
+    },
+    "id": "agent-hud"
   },
   {
     "name": "Hey Terminal",
@@ -85,7 +153,17 @@
     "tier": "primary",
     "availability": "available",
     "checked_at": "2026-10-26",
-    "id": "hey-terminal"
+    "id": "hey-terminal",
+    "features": [
+      "cover-display",
+      "expanded-layout",
+      "split-view"
+    ],
+    "feature_evidence": {
+      "cover-display": "https://apps.apple.com/us/app/hey-terminal-ssh-client/id6761189074",
+      "expanded-layout": "https://apps.apple.com/us/app/hey-terminal-ssh-client/id6761189074",
+      "split-view": "https://apps.apple.com/us/app/hey-terminal-ssh-client/id6761189074"
+    }
   },
   {
     "name": "La Terminal",
@@ -97,7 +175,13 @@
     "tier": "primary",
     "availability": "available",
     "checked_at": "2026-10-26",
-    "id": "la-terminal"
+    "id": "la-terminal",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/la-terminal-mosh-ssh-client/id1629902861"
+    }
   },
   {
     "name": "PXS Desktop",
@@ -109,7 +193,15 @@
     "tier": "primary",
     "availability": "available",
     "checked_at": "2026-10-26",
-    "id": "pxs-desktop"
+    "id": "pxs-desktop",
+    "features": [
+      "posture-layout",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/pxs-external-screen-desktop/id6756102352",
+      "expanded-layout": "https://apps.apple.com/us/app/pxs-external-screen-desktop/id6756102352"
+    }
   },
   {
     "name": "StealthOS",
@@ -121,7 +213,13 @@
     "tier": "primary",
     "availability": "available",
     "checked_at": "2026-10-26",
-    "id": "stealthos"
+    "id": "stealthos",
+    "features": [
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "expanded-layout": "https://apps.apple.com/us/app/stealthos-private-browser/id6756983634"
+    }
   },
   {
     "name": "Termius",
@@ -133,7 +231,36 @@
     "tier": "primary",
     "availability": "available",
     "checked_at": "2026-10-26",
-    "id": "termius"
+    "id": "termius",
+    "features": [
+      "support-only"
+    ],
+    "feature_evidence": {
+      "support-only": "https://apps.apple.com/us/app/termius-modern-ssh-client/id549039908"
+    }
+  },
+  {
+    "name": "UTM SE",
+    "category": "Desktop workspaces and terminals",
+    "url": "https://apps.apple.com/us/app/utm-se-retro-pc-emulator/id1564628856",
+    "description": "Run a local emulated computer with its screen above the hinge and a keyboard or touchpad below in laptop pose.",
+    "evidence_url": "https://github.com/utmapp/UTM/releases/tag/v5.0.8",
+    "evidence_note": "App Store release notes and UTM 5.0.8 document laptop mode; the GitHub release specifies iOS 27.1. SE uses emulation without JIT or a hypervisor; performance was not tested.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://github.com/utmapp/UTM/releases/tag/v5.0.8"
+    },
+    "id": "utm-se",
+    "source_url": "https://github.com/utmapp/UTM",
+    "additional_evidence_urls": [
+      "https://docs.getutm.app/installation/ios/"
+    ],
+    "limitation": "Local emulation; SE has no JIT or hypervisor. The documented Duo laptop mode requires iOS 27.1; guest systems are separate."
   },
   {
     "name": "XeOS",
@@ -145,7 +272,13 @@
     "tier": "primary",
     "availability": "available",
     "checked_at": "2026-10-26",
-    "id": "xeos"
+    "id": "xeos",
+    "features": [
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "expanded-layout": "https://apps.apple.com/id/app/external-display-desktop-xeos/id6758286241"
+    }
   },
   {
     "name": "Agenda",
@@ -157,7 +290,13 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "agenda"
+    "id": "agenda",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/agenda-notes-meets-calendar/id1370289240"
+    }
   },
   {
     "name": "Bear",
@@ -167,10 +306,33 @@
     "evidence_url": "https://apps.apple.com/vu/app/bear-markdown-notes/id1016366447",
     "evidence_note": "Version 3.0.2 confirms Duo readiness. It does not specify a special hinge interaction.",
     "tier": "primary",
-    "support": "adapted",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "bear"
+    "id": "bear",
+    "features": [
+      "support-only"
+    ],
+    "feature_evidence": {
+      "support-only": "https://apps.apple.com/vu/app/bear-markdown-notes/id1016366447"
+    }
+  },
+  {
+    "name": "Capture",
+    "category": "Notes and writing",
+    "url": "https://apps.apple.com/us/app/quick-notes-capture/id6458535284",
+    "description": "Browse captured ideas beside the selected note, photo or link on the open display.",
+    "evidence_url": "https://apps.apple.com/us/app/quick-notes-capture/id6458535284",
+    "evidence_note": "Version 3.4.2 documents the paired inbox/detail layout and a compact cover-screen layout.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "expanded-layout": "https://apps.apple.com/us/app/quick-notes-capture/id6458535284"
+    },
+    "id": "capture"
   },
   {
     "name": "Concepts",
@@ -182,7 +344,13 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "concepts"
+    "id": "concepts",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/concepts/id560586497"
+    }
   },
   {
     "name": "Craft",
@@ -194,7 +362,13 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "craft"
+    "id": "craft",
+    "features": [
+      "cover-display"
+    ],
+    "feature_evidence": {
+      "cover-display": "https://apps.apple.com/us/app/craft-notes-documents-ai/id1487937127"
+    }
   },
   {
     "name": "Flow",
@@ -206,7 +380,17 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "flow"
+    "id": "flow",
+    "features": [
+      "posture-layout",
+      "cover-display",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/flow-note-taking-sketchbook/id1271361459",
+      "cover-display": "https://apps.apple.com/us/app/flow-note-taking-sketchbook/id1271361459",
+      "expanded-layout": "https://apps.apple.com/us/app/flow-note-taking-sketchbook/id1271361459"
+    }
   },
   {
     "name": "Grammarly",
@@ -218,7 +402,33 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "grammarly"
+    "id": "grammarly",
+    "features": [
+      "support-only"
+    ],
+    "feature_evidence": {
+      "support-only": "https://apps.apple.com/us/app/grammarly-ai-keyboard-voice/id1158877342"
+    }
+  },
+  {
+    "name": "Klavette",
+    "category": "Notes and writing",
+    "url": "https://apps.apple.com/us/app/klavette/id6811542189",
+    "description": "Use a single-row keyboard on the cover screen, then dock or split it along the edges of the unfolded display.",
+    "evidence_url": "https://apps.apple.com/us/app/klavette/id6811542189",
+    "evidence_note": "Developer description documents the Mini keyboard, docking and split keyboard; these require Klavette Pro. Split keyboard is not system Split View.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "cover-display",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "cover-display": "https://apps.apple.com/us/app/klavette/id6811542189",
+      "expanded-layout": "https://apps.apple.com/us/app/klavette/id6811542189"
+    },
+    "id": "klavette"
   },
   {
     "name": "Markd.ly",
@@ -230,7 +440,15 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "markd-ly"
+    "id": "markd-ly",
+    "features": [
+      "posture-layout",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://bravely.dev/markdly/iphone-duo",
+      "expanded-layout": "https://bravely.dev/markdly/iphone-duo"
+    }
   },
   {
     "name": "Penbook",
@@ -242,7 +460,58 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "penbook"
+    "id": "penbook",
+    "features": [
+      "posture-layout",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/penbook-paper-planner-notes/id1473064295",
+      "expanded-layout": "https://apps.apple.com/us/app/penbook-paper-planner-notes/id1473064295"
+    }
+  },
+  {
+    "name": "Penjo",
+    "category": "Notes and writing",
+    "url": "https://apps.apple.com/us/app/penjo-pencil-journal-planner/id6446053076",
+    "description": "Write on the lower half while calendar events and reminders stand above; folding shut closes the journal.",
+    "evidence_url": "https://penjoapp.com/iphone-duo",
+    "evidence_note": "Developer's Duo page details book and seated layouts and the close-journal gesture; version 3.8 is released. Calendar integration requires Unlimited; examples are simulator captures.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "hinge-input",
+      "posture-layout",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://penjoapp.com/iphone-duo",
+      "posture-layout": "https://penjoapp.com/iphone-duo",
+      "expanded-layout": "https://penjoapp.com/iphone-duo"
+    },
+    "id": "penjo"
+  },
+  {
+    "name": "TypeDraw",
+    "category": "Notes and writing",
+    "url": "https://apps.apple.com/us/app/typedraw/id6822194774",
+    "description": "Open the phone like a personal notebook, type in a handwriting font, and use a two-page spread when held sideways.",
+    "evidence_url": "https://apps.apple.com/us/app/typedraw/id6822194774",
+    "evidence_note": "Description says unfolding Duo opens the notebook. Version 1.4.2 provides a landscape two-page spread and one full-screen note upright.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "hinge-input",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/us/app/typedraw/id6822194774",
+      "expanded-layout": "https://apps.apple.com/us/app/typedraw/id6822194774"
+    },
+    "limitation": "The listing describes Apple Pencil on Duo as coming later; current input includes typing and finger drawing.",
+    "id": "typedraw"
   },
   {
     "name": "ASAPDF",
@@ -254,7 +523,13 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "asapdf"
+    "id": "asapdf",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://bravely.dev/asapdf/iphone-duo"
+    }
   },
   {
     "name": "Essayist",
@@ -266,7 +541,13 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "essayist"
+    "id": "essayist",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/essayist-academic-writing-app/id1537845384"
+    }
   },
   {
     "name": "PDF Expert",
@@ -278,7 +559,33 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "pdf-expert"
+    "id": "pdf-expert",
+    "features": [
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "expanded-layout": "https://apps.apple.com/us/app/pdf-expert-editor-reader/id743974925"
+    }
+  },
+  {
+    "name": "Pitch Mode",
+    "category": "Documents and PDFs",
+    "url": "https://apps.apple.com/us/app/pitch-mode-slide-presenter/id6821425392",
+    "description": "Present slides on a TV while Duo holds slide controls beside speaker notes; book pose enlarges the controls.",
+    "evidence_url": "https://apps.apple.com/us/app/pitch-mode-slide-presenter/id6821425392",
+    "evidence_note": "Developer description documents the two-pane console and AirPlay/USB-C output. Opens PPTX; animations, video and slide editing are unsupported.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "posture-layout",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/pitch-mode-slide-presenter/id6821425392",
+      "expanded-layout": "https://apps.apple.com/us/app/pitch-mode-slide-presenter/id6821425392"
+    },
+    "id": "pitch-mode"
   },
   {
     "name": "Scanner Pro",
@@ -288,10 +595,15 @@
     "evidence_url": "https://apps.apple.com/us/app/scanner-pro-scan-to-pdf/id333710667",
     "evidence_note": "Version 9.0.3 and published Duo event confirm support; no custom hinge behavior claimed.",
     "tier": "primary",
-    "support": "adapted",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "scanner-pro"
+    "id": "scanner-pro",
+    "features": [
+      "support-only"
+    ],
+    "feature_evidence": {
+      "support-only": "https://apps.apple.com/us/app/scanner-pro-scan-to-pdf/id333710667"
+    }
   },
   {
     "name": "Actions",
@@ -303,7 +615,15 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "actions"
+    "id": "actions",
+    "features": [
+      "posture-layout",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/actions-to-do-list-organizer/id1227402276",
+      "expanded-layout": "https://apps.apple.com/us/app/actions-to-do-list-organizer/id1227402276"
+    }
   },
   {
     "name": "Calendars by Readdle",
@@ -315,7 +635,33 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "calendars-by-readdle"
+    "id": "calendars-by-readdle",
+    "features": [
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "expanded-layout": "https://apps.apple.com/us/app/calendars-schedule-planner/id608834326"
+    }
+  },
+  {
+    "name": "Daylish",
+    "category": "Planning and focus",
+    "url": "https://apps.apple.com/us/app/daylish-visual-schedule/id6751201325",
+    "description": "Prop Duo in tent or laptop pose to show the current or next schedule item as a large desk display.",
+    "evidence_url": "https://apps.apple.com/us/app/daylish-visual-schedule/id6751201325",
+    "evidence_note": "Version 1.9 documents Cue's posture trigger, calendar-colored tent alerts and an expanded day-picker sidebar.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "posture-layout",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/daylish-visual-schedule/id6751201325",
+      "expanded-layout": "https://apps.apple.com/us/app/daylish-visual-schedule/id6751201325"
+    },
+    "id": "daylish"
   },
   {
     "name": "Eventual",
@@ -327,7 +673,13 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "eventual"
+    "id": "eventual",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/eventual-calendar/id6756028875"
+    }
   },
   {
     "name": "Fantastical",
@@ -339,7 +691,13 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "fantastical"
+    "id": "fantastical",
+    "features": [
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "expanded-layout": "https://apps.apple.com/us/app/fantastical-calendar/id718043190"
+    }
   },
   {
     "name": "Finalist",
@@ -351,7 +709,35 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "finalist"
+    "id": "finalist",
+    "features": [
+      "posture-layout",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://www.finalist.works/4-2/",
+      "expanded-layout": "https://www.finalist.works/4-2/"
+    }
+  },
+  {
+    "name": "FoldTimer",
+    "category": "Planning and focus",
+    "url": "https://apps.apple.com/us/app/foldtimer-focus-pomodoro/id6824176786",
+    "description": "Set a countdown by opening the hinge, then close the phone to start it; unfold for a board of running timers.",
+    "evidence_url": "https://apps.apple.com/us/app/foldtimer-focus-pomodoro/id6824176786",
+    "evidence_note": "Developer description explicitly documents hinge-controlled duration, close-to-start and the expanded timer board.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "hinge-input",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/us/app/foldtimer-focus-pomodoro/id6824176786",
+      "expanded-layout": "https://apps.apple.com/us/app/foldtimer-focus-pomodoro/id6824176786"
+    },
+    "id": "foldtimer"
   },
   {
     "name": "Portal",
@@ -363,7 +749,51 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "portal"
+    "id": "portal",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/portal-escape-into-nature/id1436994560"
+    }
+  },
+  {
+    "name": "Sleepiest",
+    "category": "Planning and focus",
+    "url": "https://apps.apple.com/us/app/sleepiest-meditation-for-sleep/id1244690083",
+    "description": "Turn a half-folded Duo into a sleep-sound mixing desk, or use tent pose as a bedside clock with playback controls.",
+    "evidence_url": "https://apps.apple.com/us/app/sleepiest-meditation-for-sleep/id1244690083",
+    "evidence_note": "Version 17.63 specifies lower-half mixer sliders, upper-half sound choices and the tent bedside mode.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "posture-layout",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/sleepiest-meditation-for-sleep/id1244690083",
+      "expanded-layout": "https://apps.apple.com/us/app/sleepiest-meditation-for-sleep/id1244690083"
+    },
+    "id": "sleepiest"
+  },
+  {
+    "name": "Solarday",
+    "category": "Planning and focus",
+    "url": "https://apps.apple.com/us/app/solarday-plan-days-better/id6749725584",
+    "description": "Keep your day's intention beside your task list on the unfolded screen.",
+    "evidence_url": "https://apps.apple.com/us/app/solarday-plan-days-better/id6749725584",
+    "evidence_note": "Version 1.4.1 explicitly pairs Day and Do on the inner display.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "expanded-layout": "https://apps.apple.com/us/app/solarday-plan-days-better/id6749725584"
+    },
+    "id": "solarday"
   },
   {
     "name": "Structured",
@@ -375,7 +805,13 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "structured"
+    "id": "structured",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/structured-daily-planner-todo/id1499198946"
+    }
   },
   {
     "name": "Things 3",
@@ -387,7 +823,17 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "things-3"
+    "id": "things-3",
+    "features": [
+      "posture-layout",
+      "expanded-layout",
+      "split-view"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/things-3/id904237743",
+      "expanded-layout": "https://apps.apple.com/us/app/things-3/id904237743",
+      "split-view": "https://apps.apple.com/us/app/things-3/id904237743"
+    }
   },
   {
     "name": "Tiimo",
@@ -399,7 +845,13 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "tiimo"
+    "id": "tiimo",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://www.apple.com/newsroom/2026/10/developers-bring-incredible-new-app-experiences-to-iphone-duo/"
+    }
   },
   {
     "name": "Timepage",
@@ -411,7 +863,75 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "timepage"
+    "id": "timepage",
+    "features": [
+      "cover-display",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "cover-display": "https://apps.apple.com/us/app/timepage-calendar-planner/id989178902",
+      "expanded-layout": "https://apps.apple.com/us/app/timepage-calendar-planner/id989178902"
+    }
+  },
+  {
+    "name": "Zenitizer",
+    "category": "Planning and focus",
+    "url": "https://apps.apple.com/us/app/meditation-timer-zenitizer/id6444767911",
+    "description": "Start a meditation by placing Duo in tent pose, then use a timer laid out around the fold.",
+    "evidence_url": "https://apps.apple.com/us/app/meditation-timer-zenitizer/id6444767911",
+    "evidence_note": "Published update documents an optional automatic start once per entry into tent pose while the app is foregrounded.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/meditation-timer-zenitizer/id6444767911"
+    },
+    "id": "zenitizer"
+  },
+  {
+    "name": "ComicFlow",
+    "category": "Reading and research",
+    "url": "https://heynavid.com/apps/comicflow/",
+    "description": "Read comics or manga as facing pages, with the gutter aligned to the hinge and your page retained when folding.",
+    "evidence_url": "https://heynavid.com/apps/comicflow/",
+    "evidence_note": "Developer documents the two-page Duo reader since version 3.5; published examples are simulator captures.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "posture-layout",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://heynavid.com/apps/comicflow/",
+      "expanded-layout": "https://heynavid.com/apps/comicflow/"
+    },
+    "id": "comicflow"
+  },
+  {
+    "name": "FAFF",
+    "category": "Reading and research",
+    "url": "https://apps.apple.com/us/app/faff-news-reader-playlists/id6816192280",
+    "description": "Read news on facing pages, close Duo to continue listening, or stand it up as a news radio.",
+    "evidence_url": "https://apps.apple.com/us/app/faff-news-reader-playlists/id6816192280",
+    "evidence_note": "Developer description explicitly documents the reading room, Close to Listen and tabletop radio controls.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "hinge-input",
+      "posture-layout",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/us/app/faff-news-reader-playlists/id6816192280",
+      "posture-layout": "https://apps.apple.com/us/app/faff-news-reader-playlists/id6816192280",
+      "expanded-layout": "https://apps.apple.com/us/app/faff-news-reader-playlists/id6816192280"
+    },
+    "id": "faff"
   },
   {
     "name": "GoodLinks",
@@ -421,10 +941,15 @@
     "evidence_url": "https://apps.apple.com/ie/app/goodlinks/id1474335294",
     "evidence_note": "Version 4.1 confirms Duo readiness; the cited release notes do not describe a special fold interaction.",
     "tier": "primary",
-    "support": "adapted",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "goodlinks"
+    "id": "goodlinks",
+    "features": [
+      "support-only"
+    ],
+    "feature_evidence": {
+      "support-only": "https://apps.apple.com/ie/app/goodlinks/id1474335294"
+    }
   },
   {
     "name": "Inoreader",
@@ -436,7 +961,15 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "inoreader"
+    "id": "inoreader",
+    "features": [
+      "expanded-layout",
+      "split-view"
+    ],
+    "feature_evidence": {
+      "expanded-layout": "https://apps.apple.com/us/app/inoreader-news-rss-reader/id892355414",
+      "split-view": "https://apps.apple.com/us/app/inoreader-news-rss-reader/id892355414"
+    }
   },
   {
     "name": "Instapaper",
@@ -446,10 +979,37 @@
     "evidence_url": "https://apps.apple.com/us/app/instapaper/id288545208",
     "evidence_note": "Version 10.1 explicitly adds Duo support; no bespoke fold behavior documented in these notes.",
     "tier": "primary",
-    "support": "adapted",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "instapaper"
+    "id": "instapaper",
+    "features": [
+      "support-only"
+    ],
+    "feature_evidence": {
+      "support-only": "https://apps.apple.com/us/app/instapaper/id288545208"
+    }
+  },
+  {
+    "name": "MandaDeck",
+    "category": "Reading and research",
+    "url": "https://apps.apple.com/us/app/hsk-vocab-chinese-mandadeck/id6761324480",
+    "description": "Study Chinese with vocabulary beside its explanation, or stand the closed phone sideways for automatically advancing word cards.",
+    "evidence_url": "https://apps.apple.com/us/app/hsk-vocab-chinese-mandadeck/id6761324480",
+    "evidence_note": "Developer description documents paired word/detail panes, standing autoplay and writing controls kept clear of the fold.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "posture-layout",
+      "cover-display",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/hsk-vocab-chinese-mandadeck/id6761324480",
+      "cover-display": "https://apps.apple.com/us/app/hsk-vocab-chinese-mandadeck/id6761324480",
+      "expanded-layout": "https://apps.apple.com/us/app/hsk-vocab-chinese-mandadeck/id6761324480"
+    },
+    "id": "mandadeck"
   },
   {
     "name": "Xmind",
@@ -461,7 +1021,15 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "xmind"
+    "id": "xmind",
+    "features": [
+      "expanded-layout",
+      "split-view"
+    ],
+    "feature_evidence": {
+      "expanded-layout": "https://apps.apple.com/us/app/xmind-ai-mind-map-brainstorm/id1286983622",
+      "split-view": "https://apps.apple.com/us/app/xmind-ai-mind-map-brainstorm/id1286983622"
+    }
   },
   {
     "name": "(Not Boring) Camera",
@@ -473,7 +1041,13 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "not-boring-camera"
+    "id": "not-boring-camera",
+    "features": [
+      "cover-display"
+    ],
+    "feature_evidence": {
+      "cover-display": "https://apps.apple.com/us/app/not-boring-camera/id6737783441"
+    }
   },
   {
     "name": "Bezel",
@@ -485,7 +1059,13 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "bezel"
+    "id": "bezel",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://nonstrict.eu/bezel/presskit/2026-10-23-iphone-duo/"
+    }
   },
   {
     "name": "Blackmagic Camera",
@@ -495,10 +1075,38 @@
     "evidence_url": "https://apps.apple.com/us/app/blackmagic-camera/id6449580241",
     "evidence_note": "Version 3.5.3 confirms Duo support without documenting a specific hinge layout.",
     "tier": "primary",
-    "support": "adapted",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "blackmagic-camera"
+    "id": "blackmagic-camera",
+    "features": [
+      "support-only"
+    ],
+    "feature_evidence": {
+      "support-only": "https://apps.apple.com/us/app/blackmagic-camera/id6449580241"
+    }
+  },
+  {
+    "name": "Clap: Film Slate",
+    "category": "Photos and video",
+    "url": "https://apps.apple.com/us/app/clap-film-slate/id6824625416",
+    "description": "Use the phone as a clapperboard: close it to mark a take, then review or annotate that take on the cover.",
+    "evidence_url": "https://apps.apple.com/us/app/clap-film-slate/id6824625416",
+    "evidence_note": "The developer explicitly describes fold-triggered clap timing, quieter slow closure, facing slate/log pages, and cover-screen take controls.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "hinge-input",
+      "posture-layout",
+      "cover-display"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/us/app/clap-film-slate/id6824625416",
+      "posture-layout": "https://apps.apple.com/us/app/clap-film-slate/id6824625416",
+      "cover-display": "https://apps.apple.com/us/app/clap-film-slate/id6824625416"
+    },
+    "limitation": "Full use requires Clap Pro after the trial; actual sync accuracy was not independently tested.",
+    "id": "clap-film-slate"
   },
   {
     "name": "Darkroom",
@@ -510,7 +1118,15 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "darkroom"
+    "id": "darkroom",
+    "features": [
+      "posture-layout",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/darkroom-photo-video-editor/id953286746",
+      "expanded-layout": "https://apps.apple.com/us/app/darkroom-photo-video-editor/id953286746"
+    }
   },
   {
     "name": "Detail",
@@ -522,7 +1138,55 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "detail"
+    "id": "detail",
+    "features": [
+      "posture-layout",
+      "cover-display"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/is/app/detail-ai-video-editor/id1673518618",
+      "cover-display": "https://apps.apple.com/is/app/detail-ai-video-editor/id1673518618"
+    }
+  },
+  {
+    "name": "Dispatch Postcard",
+    "category": "Photos and video",
+    "url": "https://apps.apple.com/us/app/dispatch-postcard/id6794934091",
+    "description": "Build a video postcard with the viewfinder beside its ten-clip deck, or prop Duo up for timed hands-free capture.",
+    "evidence_url": "https://apps.apple.com/us/app/dispatch-postcard/id6794934091",
+    "evidence_note": "Version 1.0.3D documents the open capture/editing workspace and seated three-second timer.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "posture-layout",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/dispatch-postcard/id6794934091",
+      "expanded-layout": "https://apps.apple.com/us/app/dispatch-postcard/id6794934091"
+    },
+    "id": "dispatch-postcard"
+  },
+  {
+    "name": "Flashroom",
+    "category": "Photos and video",
+    "url": "https://apps.apple.com/us/app/flashroom-retro-photo-booth/id6813983439",
+    "description": "Set up a tabletop photo booth with a guest-facing cover preview and countdown for four-shot photo strips.",
+    "evidence_url": "https://apps.apple.com/us/app/flashroom-retro-photo-booth/id6813983439",
+    "evidence_note": "Developer description and version 1.0.2 document the guest preview and controls below the fold; Duo features require iOS 27.1.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "posture-layout",
+      "cover-display"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/flashroom-retro-photo-booth/id6813983439",
+      "cover-display": "https://apps.apple.com/us/app/flashroom-retro-photo-booth/id6813983439"
+    },
+    "id": "flashroom"
   },
   {
     "name": "Flipcorder: Retro Camcorder",
@@ -535,7 +1199,36 @@
     "limitation": "Paid app; clips remain on the phone according to the developer.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "flipcorder-retro-camcorder"
+    "id": "flipcorder-retro-camcorder",
+    "features": [
+      "hinge-input",
+      "cover-display"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/us/app/flipcorder-retro-camcorder/id6818168418",
+      "cover-display": "https://apps.apple.com/us/app/flipcorder-retro-camcorder/id6818168418"
+    }
+  },
+  {
+    "name": "Lock Screen Photo Live Widget",
+    "category": "Photos and video",
+    "url": "https://apps.apple.com/eg/app/lock-screen-photo-live-widget/id6804017740",
+    "description": "Stand the Duo in a tent to make a photo frame with time and date, or open it for paired photos.",
+    "evidence_url": "https://apps.apple.com/eg/app/lock-screen-photo-live-widget/id6804017740",
+    "evidence_note": "MADE FOR IPHONE DUO and version 1.2 notes explicitly describe tent photo-frame mode and a two-column inner layout.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "posture-layout",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/eg/app/lock-screen-photo-live-widget/id6804017740",
+      "expanded-layout": "https://apps.apple.com/eg/app/lock-screen-photo-live-widget/id6804017740"
+    },
+    "limitation": "Its separate Lock Screen feature uses Live Activities with an approximately eight-hour system limit.",
+    "id": "lock-screen-photo-live-widget"
   },
   {
     "name": "LumaFusion",
@@ -547,7 +1240,13 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "lumafusion"
+    "id": "lumafusion",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/lumafusion/id1062022008"
+    }
   },
   {
     "name": "Netflix",
@@ -559,7 +1258,75 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "netflix"
+    "id": "netflix",
+    "features": [
+      "hinge-input",
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://about.netflix.com/en/news/mobile-experience-that-moves-with-you",
+      "posture-layout": "https://about.netflix.com/en/news/mobile-experience-that-moves-with-you"
+    }
+  },
+  {
+    "name": "SixtyFive Camera",
+    "category": "Photos and video",
+    "url": "https://apps.apple.com/us/app/sixtyfive-camera/id6788836035",
+    "description": "Shoot panoramas using a wide finder, a tabletop timed shutter and a mirrored cover-screen preview for your subjects.",
+    "evidence_url": "https://apps.apple.com/us/app/sixtyfive-camera/id6788836035",
+    "evidence_note": "Version 1.0.7 specifies the full-width finder, two-second stillness release and subject-facing panorama preview.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "posture-layout",
+      "cover-display",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/sixtyfive-camera/id6788836035",
+      "cover-display": "https://apps.apple.com/us/app/sixtyfive-camera/id6788836035",
+      "expanded-layout": "https://apps.apple.com/us/app/sixtyfive-camera/id6788836035"
+    },
+    "id": "sixtyfive-camera"
+  },
+  {
+    "name": "Snapshots: Instant Film Camera",
+    "category": "Photos and video",
+    "url": "https://apps.apple.com/kr/app/snapshots-instant-film-camera/id6818673560",
+    "description": "Take a photo with Duo half open, then unfold it to feed the virtual instant print across the display.",
+    "evidence_url": "https://cocktail5555.github.io/snapshots/app/",
+    "evidence_note": "Developer site and store description document the unfolding print action and separate viewfinder/control halves; released app listing verified.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "hinge-input",
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://cocktail5555.github.io/snapshots/app/",
+      "posture-layout": "https://cocktail5555.github.io/snapshots/app/"
+    },
+    "id": "snapshots-instant-film-camera"
+  },
+  {
+    "name": "Teleprompter",
+    "category": "Photos and video",
+    "url": "https://apps.apple.com/us/app/teleprompter/id941620509",
+    "description": "Read a script on the cover display while recording yourself with the rear cameras.",
+    "evidence_url": "https://apps.apple.com/us/app/teleprompter/id941620509",
+    "evidence_note": "Version 3.90.0 and the published app event explicitly describe this cover-screen recording workflow.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "cover-display"
+    ],
+    "feature_evidence": {
+      "cover-display": "https://apps.apple.com/us/app/teleprompter/id941620509"
+    },
+    "id": "teleprompter"
   },
   {
     "name": "Aura",
@@ -570,12 +1337,15 @@
     "evidence_note": "The developer README explicitly describes the Duo Now Playing layout and links an App Store build, sideloadable IPA, and source. A compatible personal music server is required. App Store: https://apps.apple.com/us/app/aura-self-hosted-music/id6818241470 .",
     "tier": "primary",
     "availability": "available",
-    "modes": [
-      "Expanded"
-    ],
     "checked_at": "2026-10-26",
     "source_url": "https://github.com/adrbn/aura",
-    "id": "aura"
+    "id": "aura",
+    "features": [
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "expanded-layout": "https://github.com/adrbn/aura#every-device"
+    }
   },
   {
     "name": "Deck-Man: Cassette Player",
@@ -588,7 +1358,13 @@
     "limitation": "Paid; supports Apple Music and local music files. Previously called Duo-Man.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "deck-man-cassette-player"
+    "id": "deck-man-cassette-player",
+    "features": [
+      "hinge-input"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/us/app/deck-man-cassette-player/id6817070335"
+    }
   },
   {
     "name": "Fold Accordion",
@@ -601,7 +1377,13 @@
     "limitation": "Paid; physical fold mode is Duo-specific, with other input modes on standard iPhones.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "fold-accordion"
+    "id": "fold-accordion",
+    "features": [
+      "hinge-input"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/us/app/fold-accordion/id6815058989"
+    }
   },
   {
     "name": "Foldissimo – Pocket Accordion",
@@ -614,7 +1396,36 @@
     "limitation": "Optional instrument and song purchases; Store description does not itself spell out Duo in its main paragraph.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "foldissimo-pocket-accordion"
+    "id": "foldissimo-pocket-accordion",
+    "features": [
+      "hinge-input"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/us/app/foldissimo-pocket-accordion/id6819312842"
+    }
+  },
+  {
+    "name": "FoldTune",
+    "category": "Music and instruments",
+    "url": "https://apps.apple.com/us/app/foldtune/id6824165484",
+    "description": "Pump the hinge as accordion bellows, playing bass and chords on the left and piano notes on the right.",
+    "evidence_url": "https://apps.apple.com/us/app/foldtune/id6824165484",
+    "evidence_note": "App Store description maps hinge speed/direction to bellows and loudness, and provides a thumb-operated breathe bar on the outer screen.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "hinge-input",
+      "cover-display",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/us/app/foldtune/id6824165484",
+      "cover-display": "https://apps.apple.com/us/app/foldtune/id6824165484",
+      "expanded-layout": "https://apps.apple.com/us/app/foldtune/id6824165484"
+    },
+    "limitation": "Free; synthesized accordion and harmonium voices.",
+    "id": "foldtune"
   },
   {
     "name": "Koala Sampler • Beat Maker",
@@ -627,7 +1438,13 @@
     "limitation": "Release notes do not document hinge gestures; avoid claiming MPC-like fold effects.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "koala-sampler-beat-maker"
+    "id": "koala-sampler-beat-maker",
+    "features": [
+      "support-only"
+    ],
+    "feature_evidence": {
+      "support-only": "https://apps.apple.com/us/app/koala-sampler-beat-maker/id1449584007"
+    }
   },
   {
     "name": "MD Vinyl Music App",
@@ -640,7 +1457,36 @@
     "limitation": "Music-service requirements and paid options should be checked in the current listing.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "md-vinyl-music-app"
+    "id": "md-vinyl-music-app",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/md-vinyl-music-app/id1606306441"
+    }
+  },
+  {
+    "name": "Penta - CD Player & Changer",
+    "category": "Music and instruments",
+    "url": "https://apps.apple.com/us/app/penta-cd-player-changer/id6806427066",
+    "description": "Unfold a virtual CD jewel case, load its disc, then prop the phone up with a CD wallet above the changer tray.",
+    "evidence_url": "https://apps.apple.com/us/app/penta-cd-player-changer/id6806427066",
+    "evidence_note": "Description and version 1.3 notes specify hinge-following jewel cases, an album on the closed phone and the laptop arrangement.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "hinge-input",
+      "posture-layout",
+      "cover-display"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/us/app/penta-cd-player-changer/id6806427066",
+      "posture-layout": "https://apps.apple.com/us/app/penta-cd-player-changer/id6806427066",
+      "cover-display": "https://apps.apple.com/us/app/penta-cd-player-changer/id6806427066"
+    },
+    "limitation": "Owned albums work without a subscription; Apple Music catalog streaming requires one.",
+    "id": "penta-cd-player-changer"
   },
   {
     "name": "PianoFold - Rhythm Game",
@@ -653,7 +1499,13 @@
     "limitation": "Free beginning chapters; one-time full-game unlock.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "pianofold-rhythm-game"
+    "id": "pianofold-rhythm-game",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/pianofold-rhythm-game/id6822806944"
+    }
   },
   {
     "name": "Alibi: Daily Mystery Puzzles",
@@ -666,7 +1518,15 @@
     "limitation": "Additional case archive and hints have paid access.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "alibi-daily-mystery-puzzles"
+    "id": "alibi-daily-mystery-puzzles",
+    "features": [
+      "posture-layout",
+      "cover-display"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/alibi-daily-mystery-puzzles/id6790172064",
+      "cover-display": "https://apps.apple.com/us/app/alibi-daily-mystery-puzzles/id6790172064"
+    }
   },
   {
     "name": "Battlefleet Duo",
@@ -679,7 +1539,13 @@
     "limitation": "Two free battles daily; unlimited battles require a one-time purchase.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "battlefleet-duo"
+    "id": "battlefleet-duo",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/battlefleet-duo/id6811120963"
+    }
   },
   {
     "name": "Blackbox",
@@ -692,7 +1558,13 @@
     "limitation": "Duo wording not found in retrieved App Store text; no particular new Duo puzzle verified.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "blackbox"
+    "id": "blackbox",
+    "features": [
+      "support-only"
+    ],
+    "feature_evidence": {
+      "support-only": "https://www.stuff.tv/features/43-iphone-duo-apps-and-games-the-sensible-the-surprising-and-the-gloriously-bonkers/"
+    }
   },
   {
     "name": "Calcudoku · Sudoku-like Puzzle",
@@ -705,7 +1577,13 @@
     "limitation": "Support claim is brief; no fold-specific gameplay described.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "calcudoku-sudoku-like-puzzle"
+    "id": "calcudoku-sudoku-like-puzzle",
+    "features": [
+      "split-view"
+    ],
+    "feature_evidence": {
+      "split-view": "https://apps.apple.com/us/app/calcudoku-sudoku-like-puzzle/id1195710578"
+    }
   },
   {
     "name": "Calm Jigsaw: Puzzle for Adults",
@@ -718,7 +1596,13 @@
     "limitation": "Layout adaptation; no hinge-controlled puzzle mechanic is claimed.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "calm-jigsaw-puzzle-for-adults"
+    "id": "calm-jigsaw-puzzle-for-adults",
+    "features": [
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "expanded-layout": "https://apps.apple.com/us/app/calm-jigsaw-puzzle-for-adults/id6760758340"
+    }
   },
   {
     "name": "Catdoku! Cat Logic Puzzles",
@@ -731,7 +1615,13 @@
     "limitation": "Release notes do not explain a unique fold interaction.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "catdoku-cat-logic-puzzles"
+    "id": "catdoku-cat-logic-puzzles",
+    "features": [
+      "support-only"
+    ],
+    "feature_evidence": {
+      "support-only": "https://apps.apple.com/us/app/catdoku-cat-logic-puzzles/id6775778251"
+    }
   },
   {
     "name": "Chonky Corgo: Walking RPG",
@@ -744,7 +1634,13 @@
     "limitation": "An earlier developer blog described hinge toys in testing; current Store text confirms wider layouts, not those toys.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "chonky-corgo-walking-rpg"
+    "id": "chonky-corgo-walking-rpg",
+    "features": [
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "expanded-layout": "https://apps.apple.com/us/app/chonky-corgo-walking-rpg/id6796920730"
+    }
   },
   {
     "name": "Delta - Game Emulator",
@@ -757,7 +1653,17 @@
     "limitation": "Games are separate from the emulator; regional distribution and optional paid features vary.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "delta-game-emulator"
+    "id": "delta-game-emulator",
+    "features": [
+      "hinge-input",
+      "posture-layout",
+      "split-view"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/us/app/delta-game-emulator/id1048524688",
+      "posture-layout": "https://apps.apple.com/us/app/delta-game-emulator/id1048524688",
+      "split-view": "https://apps.apple.com/us/app/delta-game-emulator/id1048524688"
+    }
   },
   {
     "name": "Duometry",
@@ -770,7 +1676,53 @@
     "limitation": "App Store says compatible hinge devices rather than naming Duo. Secondary corroboration: https://www.macrumors.com/2026/10/23/iphone-duo-fun-apps/",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "duometry"
+    "id": "duometry",
+    "features": [
+      "hinge-input"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/us/app/duometry/id6814650592"
+    }
+  },
+  {
+    "name": "FleetFold",
+    "category": "Games",
+    "url": "https://apps.apple.com/us/app/fleetfold/id6817450309",
+    "description": "Keep targeting on one half and your fleet below, with an optional fold gesture to confirm firing.",
+    "evidence_url": "https://apps.apple.com/us/app/fleetfold/id6817450309",
+    "evidence_note": "MADE FOR THE FOLD explicitly describes the split board and optional fold-to-fire setting; normal touch firing remains available.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "hinge-input",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/us/app/fleetfold/id6817450309",
+      "expanded-layout": "https://apps.apple.com/us/app/fleetfold/id6817450309"
+    },
+    "limitation": "First three battles are free; Full Fleet unlocks the game.",
+    "id": "fleetfold"
+  },
+  {
+    "name": "Flick and Field",
+    "category": "Games",
+    "url": "https://apps.apple.com/de/app/flick-and-field/id6824605641",
+    "description": "Stand the phone partly open to turn it into a miniature basketball court, with the hoop and scoreboard above the playing surface.",
+    "evidence_url": "https://apps.apple.com/de/app/flick-and-field/id6824605641",
+    "evidence_note": "The original App Store description explicitly specifies lower court and upright hoop. Current version 1.0.1 also ships more sports and updated Duo layouts.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/de/app/flick-and-field/id6824605641"
+    },
+    "limitation": "Online matches require Game Center; local play works offline.",
+    "id": "flick-and-field"
   },
   {
     "name": "Fold Party",
@@ -783,7 +1735,13 @@
     "limitation": "Free games and paid packs; 2–4 players.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "fold-party"
+    "id": "fold-party",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/fold-party/id6820737260"
+    }
   },
   {
     "name": "Foldfish",
@@ -796,7 +1754,34 @@
     "limitation": "Free with optional purchases; touchscreen alternatives elsewhere.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "foldfish"
+    "id": "foldfish",
+    "features": [
+      "hinge-input"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/us/app/foldfish/id6824988199"
+    }
+  },
+  {
+    "name": "Foldlings: Foldable Friends",
+    "category": "Games",
+    "url": "https://apps.apple.com/ma/app/foldlings-foldable-friends/id6820174919",
+    "description": "Fold paper pets into existence, tip their habitat toward the crease, and close the phone to bring a companion onto the cover.",
+    "evidence_url": "https://apps.apple.com/ma/app/foldlings-foldable-friends/id6820174919",
+    "evidence_note": "The developer's MADE FOR IPHONE DUO section explicitly describes physical folding, tilting toward the crease and the pet's outer-display handoff.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "hinge-input",
+      "cover-display"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/ma/app/foldlings-foldable-friends/id6820174919",
+      "cover-display": "https://apps.apple.com/ma/app/foldlings-foldable-friends/id6820174919"
+    },
+    "limitation": "Optional purchases add pets, worlds and cosmetics.",
+    "id": "foldlings-foldable-friends"
   },
   {
     "name": "Greens: Mini-golf",
@@ -809,7 +1794,15 @@
     "limitation": "Free courses with a one-time purchase for additional courses.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "greens-mini-golf"
+    "id": "greens-mini-golf",
+    "features": [
+      "posture-layout",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/greens-mini-golf/id6815742588",
+      "expanded-layout": "https://apps.apple.com/us/app/greens-mini-golf/id6815742588"
+    }
   },
   {
     "name": "Hex Armada",
@@ -822,7 +1815,13 @@
     "limitation": "No detailed hinge behavior documented.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "hex-armada"
+    "id": "hex-armada",
+    "features": [
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "expanded-layout": "https://apps.apple.com/us/app/hex-armada/id6761338531"
+    }
   },
   {
     "name": "Hexiled",
@@ -835,7 +1834,32 @@
     "limitation": "Duo/laptop wording not found in retrieved App Store text; retain as editorial evidence.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "hexiled"
+    "id": "hexiled",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://www.stuff.tv/features/43-iphone-duo-apps-and-games-the-sensible-the-surprising-and-the-gloriously-bonkers/"
+    }
+  },
+  {
+    "name": "Hingami - Puzzle Origami",
+    "category": "Games",
+    "url": "https://apps.apple.com/us/app/hingami-puzzle-origami/id6819676482",
+    "description": "Rotate a paper sheet to align its crease with the hinge, then fold the phone to match a target silhouette.",
+    "evidence_url": "https://apps.apple.com/us/app/hingami-puzzle-origami/id6819676482",
+    "evidence_note": "The App Store description explicitly requires aligning a crease under the physical hinge and closing the device to finish the origami.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "hinge-input"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/us/app/hingami-puzzle-origami/id6819676482"
+    },
+    "limitation": "The listing leaves its level count unspecified; do not quote a number.",
+    "id": "hingami-puzzle-origami"
   },
   {
     "name": "Marbles Unhinged: Folding Maze",
@@ -848,7 +1872,13 @@
     "limitation": "Available app with optional level purchases; the final Unhinged world is marked coming soon, not the whole app.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "marbles-unhinged-folding-maze"
+    "id": "marbles-unhinged-folding-maze",
+    "features": [
+      "hinge-input"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/us/app/marbles-unhinged-folding-maze/id6811637729"
+    }
   },
   {
     "name": "Nitelore",
@@ -861,7 +1891,13 @@
     "limitation": "The release notes do not identify a hinge mechanic; classify as an optimized game.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "nitelore"
+    "id": "nitelore",
+    "features": [
+      "support-only"
+    ],
+    "feature_evidence": {
+      "support-only": "https://apps.apple.com/us/app/nitelore/id6790147739"
+    }
   },
   {
     "name": "Nonogram Ultra",
@@ -874,7 +1910,13 @@
     "limitation": "No specific hinge mechanic documented.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "nonogram-ultra"
+    "id": "nonogram-ultra",
+    "features": [
+      "support-only"
+    ],
+    "feature_evidence": {
+      "support-only": "https://apps.apple.com/us/app/nonogram-ultra/id6799545084"
+    }
   },
   {
     "name": "Orisuji",
@@ -887,7 +1929,36 @@
     "limitation": "Paid; tap/pinch alternatives on other devices.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "orisuji"
+    "id": "orisuji",
+    "features": [
+      "hinge-input",
+      "cover-display"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/us/app/orisuji/id6817092898",
+      "cover-display": "https://apps.apple.com/us/app/orisuji/id6817092898"
+    }
+  },
+  {
+    "name": "Peekaboard: 2 Player Games",
+    "category": "Games",
+    "url": "https://apps.apple.com/us/app/peekaboard-2-player-games/id6819004793",
+    "description": "Share a flat tabletop for naval battles or liar's dice, then fold your half toward you to peek at hidden information.",
+    "evidence_url": "https://apps.apple.com/us/app/peekaboard-2-player-games/id6819004793",
+    "evidence_note": "PLAY IT ON IPHONE DUO explicitly describes flat two-player layout and folding toward the active player to reveal fleet or dice.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "hinge-input",
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/us/app/peekaboard-2-player-games/id6819004793",
+      "posture-layout": "https://apps.apple.com/us/app/peekaboard-2-player-games/id6819004793"
+    },
+    "limitation": "Naval Duel is included; the one-time Full Pass unlocks Bluff Cups.",
+    "id": "peekaboard-2-player-games"
   },
   {
     "name": "Pixelogic - Daily Nonograms",
@@ -900,7 +1971,13 @@
     "limitation": "The release note does not explain a hinge-specific feature.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "pixelogic-daily-nonograms"
+    "id": "pixelogic-daily-nonograms",
+    "features": [
+      "support-only"
+    ],
+    "feature_evidence": {
+      "support-only": "https://apps.apple.com/us/app/pixelogic-daily-nonograms/id318667196"
+    }
   },
   {
     "name": "Toastie: grilled cheese game",
@@ -910,10 +1987,16 @@
     "evidence_url": "https://apps.apple.com/us/app/toastie-grilled-cheese-game/id6813841355",
     "evidence_note": "Description and 1.1 release notes explicitly document physical lid control on Duo.",
     "tier": "primary",
-    "limitation": "Paid app; game rather than a real heating function.",
+    "limitation": "Paid app.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "toastie-grilled-cheese-game"
+    "id": "toastie-grilled-cheese-game",
+    "features": [
+      "hinge-input"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/us/app/toastie-grilled-cheese-game/id6813841355"
+    }
   },
   {
     "name": "Torpedo: Sea Battle 2 Player",
@@ -926,7 +2009,13 @@
     "limitation": "Distinct from Battlefleet Duo; board orientation is opposite. Optional purchases.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "torpedo-sea-battle-2-player"
+    "id": "torpedo-sea-battle-2-player",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/torpedo-sea-battle-2-player/id6817928839"
+    }
   },
   {
     "name": "Tumble: Gravity Block Puzzle",
@@ -939,7 +2028,13 @@
     "limitation": "Free with ads; a purchase removes ads.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "tumble-gravity-block-puzzle"
+    "id": "tumble-gravity-block-puzzle",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/tumble-gravity-block-puzzle/id6810856219"
+    }
   },
   {
     "name": "Twofold: Pass & Play",
@@ -952,7 +2047,17 @@
     "limitation": "Try each game once; one-time per-game or all-game unlocks.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "twofold-pass-play"
+    "id": "twofold-pass-play",
+    "features": [
+      "hinge-input",
+      "posture-layout",
+      "cover-display"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/us/app/twofold-pass-play/id6816330259",
+      "posture-layout": "https://apps.apple.com/us/app/twofold-pass-play/id6816330259",
+      "cover-display": "https://apps.apple.com/us/app/twofold-pass-play/id6816330259"
+    }
   },
   {
     "name": "ChompDuo",
@@ -965,7 +2070,38 @@
     "limitation": "One free monster; other monsters have a one-time unlock.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "chompduo"
+    "id": "chompduo",
+    "features": [
+      "hinge-input",
+      "cover-display"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/us/app/chompduo/id6823172460",
+      "cover-display": "https://apps.apple.com/us/app/chompduo/id6823172460"
+    }
+  },
+  {
+    "name": "DexFold",
+    "category": "Playful objects and art",
+    "url": "https://apps.apple.com/us/app/dexfold/id6820194843",
+    "description": "A talking fan-made Pokédex with a red outer lid, a keypad inside, and stats that appear when you partly fold it.",
+    "evidence_url": "https://apps.apple.com/us/app/dexfold/id6820194843",
+    "evidence_note": "Current App Store description explains the outer lid, split inner display, half-fold stats and returning flat to the keypad. Version 1.1 adds camera recognition.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "hinge-input",
+      "posture-layout",
+      "cover-display"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/us/app/dexfold/id6820194843",
+      "posture-layout": "https://apps.apple.com/us/app/dexfold/id6820194843",
+      "cover-display": "https://apps.apple.com/us/app/dexfold/id6820194843"
+    },
+    "limitation": "Unofficial Pokémon fan app; optional Plus purchase unlocks tracking and customization.",
+    "id": "dexfold"
   },
   {
     "name": "Fold & Squish: Butterfly Paint",
@@ -978,7 +2114,57 @@
     "limitation": "Free tools; optional one-time Sparkle Pack.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "fold-squish-butterfly-paint"
+    "id": "fold-squish-butterfly-paint",
+    "features": [
+      "hinge-input",
+      "cover-display"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/us/app/fold-squish-butterfly-paint/id6822789179",
+      "cover-display": "https://apps.apple.com/us/app/fold-squish-butterfly-paint/id6822789179"
+    }
+  },
+  {
+    "name": "Fold Crack: Cracked Screen",
+    "category": "Playful objects and art",
+    "url": "https://apps.apple.com/de/app/fold-crack-cracked-screen/id6807880115",
+    "description": "A prank screen that develops fake cracks and plays sound effects in response to folding.",
+    "evidence_url": "https://apps.apple.com/de/app/fold-crack-cracked-screen/id6807880115",
+    "evidence_note": "Version 1.3 explicitly introduced iPhone Duo fold-responsive visuals and audio; version 1.4 adds real-time folding effects.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "hinge-input"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/de/app/fold-crack-cracked-screen/id6807880115"
+    },
+    "limitation": "Visual and sound simulation only.",
+    "id": "fold-crack-cracked-screen"
+  },
+  {
+    "name": "Inkblotter",
+    "category": "Playful objects and art",
+    "url": "https://apps.apple.com/us/app/inkblotter/id6819932681",
+    "description": "Drop ink, close the phone to press it, then reopen a mirrored blot; its closed cover becomes a dark notebook.",
+    "evidence_url": "https://apps.apple.com/us/app/inkblotter/id6819932681",
+    "evidence_note": "Developer description explicitly ties ink spreading and peeling to the hinge, identifies the cover-screen notebook and a facing-page plate/story layout.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "hinge-input",
+      "cover-display",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/us/app/inkblotter/id6819932681",
+      "cover-display": "https://apps.apple.com/us/app/inkblotter/id6819932681",
+      "expanded-layout": "https://apps.apple.com/us/app/inkblotter/id6819932681"
+    },
+    "limitation": "The fictional Examiner is entertainment, not a psychological assessment.",
+    "id": "inkblotter"
   },
   {
     "name": "kami: hinge driven origami",
@@ -991,7 +2177,13 @@
     "limitation": "A creative toy with no listed levels; real-device performance not tested here.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "kami-hinge-driven-origami"
+    "id": "kami-hinge-driven-origami",
+    "features": [
+      "hinge-input"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/us/app/kami-hinge-driven-origami/id6810977836"
+    }
   },
   {
     "name": "Lake: Coloring Book for Adults",
@@ -1004,7 +2196,91 @@
     "limitation": "Full library has paid access; avoid presenting planned Pencil support as already delivered.",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "lake-coloring-book-for-adults"
+    "id": "lake-coloring-book-for-adults",
+    "features": [
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "expanded-layout": "https://apps.apple.com/us/app/lake-coloring-book-for-adults/id1183717726"
+    }
+  },
+  {
+    "name": "Origami - Fold & Learn",
+    "category": "Playful objects and art",
+    "url": "https://apps.apple.com/us/app/origami-fold-learn/id1256478184",
+    "description": "Follow one paper-folding step on the closed phone, then open a book-like view of the finished model beside its instructions.",
+    "evidence_url": "https://apps.apple.com/us/app/origami-fold-learn/id1256478184",
+    "evidence_note": "Version 5.0 release notes explicitly distinguish the closed single-step view from the open model-and-steps arrangement.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "cover-display",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "cover-display": "https://apps.apple.com/us/app/origami-fold-learn/id1256478184",
+      "expanded-layout": "https://apps.apple.com/us/app/origami-fold-learn/id1256478184"
+    },
+    "limitation": "Teaches folding physical paper; full instruction library requires Premium.",
+    "id": "origami-fold-learn"
+  },
+  {
+    "name": "Paint & Fold",
+    "category": "Playful objects and art",
+    "url": "https://apps.apple.com/ru/app/paint-fold/id6817731303",
+    "description": "Paint on either page, fold to press the colors together, and peel it open; closing speed and dwell time change the print.",
+    "evidence_url": "https://apps.apple.com/ru/app/paint-fold/id6817731303",
+    "evidence_note": "App Store description explicitly makes physical closure the paint press and explains slow/fast closing and time held closed.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "hinge-input"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/ru/app/paint-fold/id6817731303"
+    },
+    "limitation": "Requires iOS 27 or later.",
+    "id": "paint-fold"
+  },
+  {
+    "name": "Panic Tracker: The Red Button",
+    "category": "Playful objects and art",
+    "url": "https://apps.apple.com/lk/app/panic-tracker-the-red-button/id6743371838",
+    "description": "A playful red-button counter that also counts closing the Duo as a press.",
+    "evidence_url": "https://apps.apple.com/lk/app/panic-tracker-the-red-button/id6743371838",
+    "evidence_note": "Version 1.0.7 release notes explicitly add closing iPhone Duo as a counting input.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "hinge-input"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/lk/app/panic-tracker-the-red-button/id6743371838"
+    },
+    "limitation": "A novelty counter; no health-effect claim is made here.",
+    "id": "panic-tracker-the-red-button"
+  },
+  {
+    "name": "Papelle",
+    "category": "Playful objects and art",
+    "url": "https://apps.apple.com/us/app/papelle/id6816144743",
+    "description": "Interactive greeting cards reveal photos, messages and video as you open the phone; pause the fold to hold the surprise.",
+    "evidence_url": "https://apps.apple.com/us/app/papelle/id6816144743",
+    "evidence_note": "The current App Store description explicitly ties the card and Motion Note video reveal to opening and closing iPhone Duo; version 1.0.1 is released.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "hinge-input"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/us/app/papelle/id6816144743"
+    },
+    "limitation": "Recipients need the free Papelle app; optional design collections are paid.",
+    "id": "papelle"
   },
   {
     "id": "tiny-computers",
@@ -1016,7 +2292,58 @@
     "evidence_note": "Developer press kit confirms October 23 release, tabletop controls and ten included machines.",
     "tier": "primary",
     "availability": "available",
-    "checked_at": "2026-10-26"
+    "checked_at": "2026-10-26",
+    "features": [
+      "posture-layout",
+      "cover-display"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://www.fountaininteractive.com/TinyComputers/press/",
+      "cover-display": "https://www.fountaininteractive.com/TinyComputers/press/"
+    }
+  },
+  {
+    "name": "Unfold Your City",
+    "category": "Playful objects and art",
+    "url": "https://apps.apple.com/us/app/unfold-your-city/id6821145773",
+    "description": "Unfold miniature paper cities from an atlas cover; flatten the book to bring on dusk, illuminated windows and music.",
+    "evidence_url": "https://apps.apple.com/us/app/unfold-your-city/id6821145773",
+    "evidence_note": "MADE FOR IPHONE DUO explicitly describes outer cover and paper cards following opening motion; the description gives flat-book dusk behavior.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "hinge-input",
+      "cover-display"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/us/app/unfold-your-city/id6821145773",
+      "cover-display": "https://apps.apple.com/us/app/unfold-your-city/id6821145773"
+    },
+    "limitation": "Barcelona is free; other cities or the full collection are paid.",
+    "id": "unfold-your-city"
+  },
+  {
+    "name": "Gymverse",
+    "category": "Fitness and outdoors",
+    "url": "https://apps.apple.com/us/app/gymverse-gym-workout-planner/id1048454034",
+    "description": "Show a gym status sign on the cover display, or open Duo to keep your training plan beside today's workout.",
+    "evidence_url": "https://gymverse.app/iphone-duo/",
+    "evidence_note": "Developer's dedicated Duo page says Available Now and documents Gym Sign; its promotional screens are simulated.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "posture-layout",
+      "cover-display",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://gymverse.app/iphone-duo/",
+      "cover-display": "https://gymverse.app/iphone-duo/",
+      "expanded-layout": "https://gymverse.app/iphone-duo/"
+    },
+    "id": "gymverse"
   },
   {
     "name": "Liftin'",
@@ -1028,7 +2355,13 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "liftin"
+    "id": "liftin",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://liftinapp.co/"
+    }
   },
   {
     "name": "Personal Best",
@@ -1040,7 +2373,33 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "personal-best"
+    "id": "personal-best",
+    "features": [
+      "posture-layout",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://getpersonalbest.com/duo",
+      "expanded-layout": "https://getpersonalbest.com/duo"
+    }
+  },
+  {
+    "name": "Score Keeper",
+    "category": "Fitness and outdoors",
+    "url": "https://apps.apple.com/us/app/score-keeper/id6759308591",
+    "description": "Show large scores on the upright half while keeping scoring buttons and a timer on the flat half.",
+    "evidence_url": "https://apps.apple.com/us/app/score-keeper/id6759308591",
+    "evidence_note": "Version 1.2.0 also documents one side per team in book pose.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/score-keeper/id6759308591"
+    },
+    "id": "score-keeper"
   },
   {
     "name": "Slopes",
@@ -1052,7 +2411,13 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "slopes"
+    "id": "slopes",
+    "features": [
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "expanded-layout": "https://apps.apple.com/it/app/slopes-sci-e-snowboard/id643351983"
+    }
   },
   {
     "name": "SmartGym",
@@ -1064,7 +2429,13 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "smartgym"
+    "id": "smartgym",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/smartgym-gym-home-workouts/id922744883"
+    }
   },
   {
     "name": "Wakeout",
@@ -1076,7 +2447,13 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "wakeout"
+    "id": "wakeout",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/wakeout-fitness-games/id1242116567"
+    }
   },
   {
     "name": "CARROT Weather",
@@ -1088,19 +2465,35 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "carrot-weather"
+    "id": "carrot-weather",
+    "features": [
+      "expanded-layout",
+      "split-view"
+    ],
+    "feature_evidence": {
+      "expanded-layout": "https://apps.apple.com/us/app/carrot-weather-alerts-radar/id961390574",
+      "split-view": "https://apps.apple.com/us/app/carrot-weather-alerts-radar/id961390574"
+    }
   },
   {
     "name": "Mercury Weather",
     "category": "Weather and nature",
-    "url": "https://apps.apple.com/al/app/mercury-weather/id1621800675",
+    "url": "https://apps.apple.com/us/app/mercury-weather/id1621800675",
     "description": "Unfold to keep saved places beside their forecast, or compare two locations in separate Mercury windows.",
-    "evidence_url": "https://apps.apple.com/al/app/mercury-weather/id1621800675",
+    "evidence_url": "https://apps.apple.com/us/app/mercury-weather/id1621800675",
     "evidence_note": "Version 3.8.1 release notes explicitly document locations/forecast pairing and two-window comparison.",
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "mercury-weather"
+    "id": "mercury-weather",
+    "features": [
+      "expanded-layout",
+      "split-view"
+    ],
+    "feature_evidence": {
+      "expanded-layout": "https://apps.apple.com/us/app/mercury-weather/id1621800675",
+      "split-view": "https://apps.apple.com/us/app/mercury-weather/id1621800675"
+    }
   },
   {
     "name": "Please Don't Rain",
@@ -1112,7 +2505,13 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "please-don-t-rain"
+    "id": "please-don-t-rain",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/please-dont-rain/id6444577668"
+    }
   },
   {
     "name": "Tide Guide",
@@ -1124,7 +2523,13 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "tide-guide"
+    "id": "tide-guide",
+    "features": [
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "expanded-layout": "https://apps.apple.com/us/app/tide-guide-charts-tables/id1406371071"
+    }
   },
   {
     "name": "Bikemap",
@@ -1136,7 +2541,33 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "bikemap"
+    "id": "bikemap",
+    "features": [
+      "posture-layout",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/bikemap-bicycle-tracker-gps/id625759466",
+      "expanded-layout": "https://apps.apple.com/us/app/bikemap-bicycle-tracker-gps/id625759466"
+    }
+  },
+  {
+    "name": "Chimani",
+    "category": "Travel and navigation",
+    "url": "https://apps.apple.com/us/app/chimani-national-parks/id436381327",
+    "description": "Explore a park itinerary or guide alongside its interactive map on the unfolded screen.",
+    "evidence_url": "https://apps.apple.com/us/app/chimani-national-parks/id436381327",
+    "evidence_note": "Version 6.3.3 explicitly documents paired guides/maps, trip dashboards and preserving position when folded or resized.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "expanded-layout": "https://apps.apple.com/us/app/chimani-national-parks/id436381327"
+    },
+    "id": "chimani"
   },
   {
     "name": "Flighty",
@@ -1148,7 +2579,13 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "flighty"
+    "id": "flighty",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/flighty-live-flight-tracker/id1358823008"
+    }
   },
   {
     "name": "Tripsy",
@@ -1160,7 +2597,31 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "tripsy"
+    "id": "tripsy",
+    "features": [
+      "support-only"
+    ],
+    "feature_evidence": {
+      "support-only": "https://apps.apple.com/us/app/tripsy-travel-planner/id1429967544"
+    }
+  },
+  {
+    "name": "True Skies",
+    "category": "Travel and navigation",
+    "url": "https://apps.apple.com/us/app/true-skies-flight-tracker/id6751201769",
+    "description": "Track flights beside the live map, with a flight log that opens like a passport when Duo unfolds.",
+    "evidence_url": "https://apps.apple.com/us/app/true-skies-flight-tracker/id6751201769",
+    "evidence_note": "Version 2.0.2 confirms paired flights/map panes; the published Duo event also describes the passport-style log.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "expanded-layout": "https://apps.apple.com/us/app/true-skies-flight-tracker/id6751201769"
+    },
+    "id": "true-skies"
   },
   {
     "name": "Airmail",
@@ -1172,7 +2633,31 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "airmail"
+    "id": "airmail",
+    "features": [
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "expanded-layout": "https://www.apple.com/newsroom/2026/10/developers-bring-incredible-new-app-experiences-to-iphone-duo/"
+    }
+  },
+  {
+    "name": "Flicit",
+    "category": "Cooking and everyday",
+    "url": "https://apps.apple.com/us/app/flicit-movie-diary-tickets/id6790159773",
+    "description": "Keep a film diary as tickets; in laptop pose, the ticket stands above the cinema seat diagram.",
+    "evidence_url": "https://apps.apple.com/us/app/flicit-movie-diary-tickets/id6790159773",
+    "evidence_note": "Developer description documents the ticket/seat layout; version 1.1 also lets flicked tickets land on the other page.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/flicit-movie-diary-tickets/id6790159773"
+    },
+    "id": "flicit"
   },
   {
     "name": "Menu Planner 2",
@@ -1184,7 +2669,113 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "available",
-    "id": "menu-planner-2"
+    "id": "menu-planner-2",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://www.menu-planner.com/iphone-duo"
+    }
+  },
+  {
+    "name": "Roomantic",
+    "category": "Cooking and everyday",
+    "url": "https://apps.apple.com/us/app/roomantic-furniture-planner/id6759999318",
+    "description": "Plan room furnishings across a workspace arranged as two pages at the fold.",
+    "evidence_url": "https://apps.apple.com/us/app/roomantic-furniture-planner/id6759999318",
+    "evidence_note": "Version 2.0.8 explicitly documents the Duo layout and manual room drafting on devices without LiDAR; no Duo room-scanning capability is claimed.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "posture-layout",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/roomantic-furniture-planner/id6759999318",
+      "expanded-layout": "https://apps.apple.com/us/app/roomantic-furniture-planner/id6759999318"
+    },
+    "id": "roomantic"
+  },
+  {
+    "name": "Spread: Recipe Book",
+    "category": "Cooking and everyday",
+    "url": "https://apps.apple.com/us/app/spread-recipe-book/id6820745043",
+    "description": "Cook from ingredients on one page and the current instruction on the other, with the hinge between them.",
+    "evidence_url": "https://apps.apple.com/us/app/spread-recipe-book/id6820745043",
+    "evidence_note": "Developer description documents the cookbook layout and retaining the current step when folded.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "posture-layout",
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://apps.apple.com/us/app/spread-recipe-book/id6820745043",
+      "expanded-layout": "https://apps.apple.com/us/app/spread-recipe-book/id6820745043"
+    },
+    "id": "spread-recipe-book"
+  },
+  {
+    "name": "FoldLab",
+    "category": "Utilities and measurements",
+    "url": "https://apps.apple.com/us/app/foldlab-hinge-fold-tools/id6814885312",
+    "description": "Read hinge angles, save reference targets and use slope or miter tools, with a companion reading on the cover.",
+    "evidence_url": "https://apps.apple.com/us/app/foldlab-hinge-fold-tools/id6814885312",
+    "evidence_note": "Developer description specifies Duo on iOS 27.1; advanced tools require Pro. It warns readings may differ by up to 5 degrees and are not precision measurements.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "hinge-input",
+      "cover-display"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/us/app/foldlab-hinge-fold-tools/id6814885312",
+      "cover-display": "https://apps.apple.com/us/app/foldlab-hinge-fold-tools/id6814885312"
+    },
+    "id": "foldlab"
+  },
+  {
+    "name": "Hinge Caliper",
+    "category": "Utilities and measurements",
+    "url": "https://apps.apple.com/us/app/hinge-caliper/id6819039427",
+    "description": "Estimate an object's thickness from the hinge angle, with an optional spoken reading and cover-display measurement.",
+    "evidence_url": "https://apps.apple.com/us/app/hinge-caliper/id6819039427",
+    "evidence_note": "Developer description specifies calibration and approximate readings; the optional outer view requires a running camera but records nothing.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "hinge-input",
+      "cover-display"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/us/app/hinge-caliper/id6819039427",
+      "cover-display": "https://apps.apple.com/us/app/hinge-caliper/id6819039427"
+    },
+    "id": "hinge-caliper"
+  },
+  {
+    "name": "OutSpan",
+    "category": "Utilities and measurements",
+    "url": "https://apps.apple.com/us/app/outspan/id6814314176",
+    "description": "Expand Safari pages underneath its side controls on Duo's cover display or while browsing beside another app.",
+    "evidence_url": "https://apps.apple.com/us/app/outspan/id6814314176",
+    "evidence_note": "Developer description and version 1.1 explicitly document system Split View. Wide mode needs a one-time unlock after a three-day trial; some websites may not widen correctly.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-26",
+    "features": [
+      "cover-display",
+      "split-view"
+    ],
+    "feature_evidence": {
+      "cover-display": "https://apps.apple.com/us/app/outspan/id6814314176",
+      "split-view": "https://apps.apple.com/us/app/outspan/id6814314176"
+    },
+    "id": "outspan"
   },
   {
     "name": "Accorduon",
@@ -1195,13 +2786,53 @@
     "evidence_note": "The maintainer documents hinge-speed-driven bellows and a touch/Auto Air fallback. Source project requires Xcode and iOS 27.1 or later; no App Store release verified.",
     "tier": "primary",
     "availability": "source-build",
-    "modes": [
-      "Hinge",
-      "Book"
-    ],
     "checked_at": "2026-10-26",
     "source_url": "https://github.com/artemnovichkov/Accorduon",
-    "id": "accorduon"
+    "id": "accorduon",
+    "features": [
+      "hinge-input"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://github.com/artemnovichkov/Accorduon#readme"
+    }
+  },
+  {
+    "name": "AskMeety",
+    "category": "Source projects and experiments",
+    "url": "https://devpost.com/software/halfnote",
+    "description": "A meeting-note prototype that folds into video above a scratchpad, collecting approved transcript excerpts and captured frames.",
+    "evidence_url": "https://devpost.com/software/halfnote",
+    "evidence_note": "Team documents a hinge-triggered laptop workspace and explicitly distinguishes its live sample from untested real-call capture.",
+    "tier": "primary",
+    "availability": "prototype",
+    "checked_at": "2026-10-26",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://devpost.com/software/halfnote"
+    },
+    "limitation": "Real-meeting audio capture, physical hinge behavior and end-to-end exports still need hardware validation.",
+    "id": "askmeety"
+  },
+  {
+    "name": "Basis",
+    "category": "Source projects and experiments",
+    "url": "https://devpost.com/software/basis-5eykt9",
+    "description": "A hands-on linear algebra demo where folding the phone changes a coordinate basis and reveals what happens near singularity.",
+    "evidence_url": "https://devpost.com/software/basis-5eykt9",
+    "evidence_note": "The team describes hinge-driven basis vectors and a five-part guided demo tested in the Duo simulator.",
+    "tier": "primary",
+    "availability": "prototype",
+    "checked_at": "2026-10-26",
+    "features": [
+      "hinge-input"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://devpost.com/software/basis-5eykt9"
+    },
+    "limitation": "Simulator prototype. Its claimed simultaneous inner/outer math display is not verified on hardware and is not tagged as a supported cover feature.",
+    "id": "basis"
   },
   {
     "name": "ClawKit",
@@ -1212,15 +2843,17 @@
     "evidence_note": "The README documents tabletop play, side-by-side book layout, hinge-driven shaking, and a prize shelf on the cover display. Source-build project, not a verified store download.",
     "tier": "primary",
     "availability": "source-build",
-    "modes": [
-      "Tabletop",
-      "Book",
-      "Cover",
-      "Hinge"
-    ],
     "checked_at": "2026-10-26",
     "source_url": "https://github.com/artemnovichkov/ClawKit",
-    "id": "clawkit"
+    "id": "clawkit",
+    "features": [
+      "hinge-input",
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://github.com/artemnovichkov/ClawKit#readme",
+      "posture-layout": "https://github.com/artemnovichkov/ClawKit#readme"
+    }
   },
   {
     "name": "DuoBird",
@@ -1231,13 +2864,15 @@
     "evidence_note": "The README documents hinge input, a wider-gap game design, and source-build instructions for Xcode and iOS 27.1 or later. It explicitly says full opening or slamming is unnecessary.",
     "tier": "primary",
     "availability": "source-build",
-    "modes": [
-      "Hinge",
-      "Book"
-    ],
     "checked_at": "2026-10-26",
     "source_url": "https://github.com/artemnovichkov/DuoBird",
-    "id": "duobird"
+    "id": "duobird",
+    "features": [
+      "hinge-input"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://github.com/artemnovichkov/DuoBird#readme"
+    }
   },
   {
     "name": "DuoCut",
@@ -1248,12 +2883,15 @@
     "evidence_note": "The maintainer documents the fold as the cutting line, three game modes, and a swipe fallback on devices without a hinge. Public SwiftUI source project; no store release verified.",
     "tier": "primary",
     "availability": "source-build",
-    "modes": [
-      "Hinge"
-    ],
     "checked_at": "2026-10-26",
     "source_url": "https://github.com/artemnovichkov/DuoCut",
-    "id": "duocut"
+    "id": "duocut",
+    "features": [
+      "hinge-input"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://github.com/artemnovichkov/DuoCut#readme"
+    }
   },
   {
     "name": "Duogami",
@@ -1264,13 +2902,15 @@
     "evidence_note": "The maintainer documents Fold with iPhone mode, alignment with the hinge, and a slider fallback. Requires Xcode and iOS 27.1 or later; no store release verified.",
     "tier": "primary",
     "availability": "source-build",
-    "modes": [
-      "Hinge",
-      "Book"
-    ],
     "checked_at": "2026-10-26",
     "source_url": "https://github.com/artemnovichkov/Duogami",
-    "id": "duogami"
+    "id": "duogami",
+    "features": [
+      "hinge-input"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://github.com/artemnovichkov/Duogami#readme"
+    }
   },
   {
     "name": "DuoRemote",
@@ -1283,7 +2923,13 @@
     "availability": "source-build",
     "source_url": "https://github.com/yezzer/DuoRemote",
     "checked_at": "2026-10-26",
-    "id": "duoremote"
+    "id": "duoremote",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://github.com/yezzer/DuoRemote"
+    }
   },
   {
     "name": "Factorio native port",
@@ -1294,12 +2940,15 @@
     "evidence_note": "Unofficial adaptation of the owner's purchased macOS copy; game files are not included. Requires a compatible Mac, Xcode, signing, and an exact supported Factorio version. The maintainer reports Duo play but lists fold/unfold during play, long sessions, and large factories as untested. Keep in experiments, not ordinary App Store recommendations.",
     "tier": "primary",
     "availability": "source-build",
-    "modes": [
-      "Expanded"
-    ],
     "checked_at": "2026-10-26",
     "source_url": "https://github.com/d4m14ndx/factorio-native-arm-ipad",
-    "id": "factorio-native-port"
+    "id": "factorio-native-port",
+    "features": [
+      "support-only"
+    ],
+    "feature_evidence": {
+      "support-only": "https://github.com/d4m14ndx/factorio-native-arm-ipad#readme"
+    }
   },
   {
     "name": "FoldRush",
@@ -1310,12 +2959,149 @@
     "evidence_note": "The project is also called Fold Runner in its README. Developer documents hinge/tilt calibration, debug inputs, and Bitrig builds; physical comfort and steering still require device validation. Hackathon page: https://devpost.com/software/foldrush (created September 26, 2026). No license was displayed in the inspected root, so describe as public source, not confirmed open-source licensing.",
     "tier": "primary",
     "availability": "source-build",
-    "modes": [
-      "Hinge"
-    ],
     "checked_at": "2026-10-26",
     "source_url": "https://github.com/AskArtwentythree/foldrush",
-    "id": "foldrush"
+    "id": "foldrush",
+    "features": [
+      "hinge-input"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://github.com/AskArtwentythree/foldrush#readme"
+    }
+  },
+  {
+    "name": "Foldtales: pop-up storybook",
+    "category": "Source projects and experiments",
+    "url": "https://devpost.com/software/foldtales-the-pop-up-book-that-stands-up-inside-the-fold",
+    "description": "A paper storybook prototype with hinge-raised scenery, an outer cover and a laptop pose that becomes a narrated bedtime stage.",
+    "evidence_url": "https://devpost.com/software/foldtales-the-pop-up-book-that-stands-up-inside-the-fold",
+    "evidence_note": "Team documents live hinge geometry, outer/inner handoff, laptop theater and flat two-page reading, tested with the simulator slider.",
+    "tier": "primary",
+    "availability": "prototype",
+    "checked_at": "2026-10-26",
+    "features": [
+      "hinge-input",
+      "posture-layout",
+      "cover-display"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://devpost.com/software/foldtales-the-pop-up-book-that-stands-up-inside-the-fold",
+      "posture-layout": "https://devpost.com/software/foldtales-the-pop-up-book-that-stands-up-inside-the-fold",
+      "cover-display": "https://devpost.com/software/foldtales-the-pop-up-book-that-stands-up-inside-the-fold"
+    },
+    "limitation": "Simulator prototype; its linked GitHub repository returned 404. Distinct from the unrelated FoldTales wallpaper app.",
+    "id": "foldtales-pop-up-storybook"
+  },
+  {
+    "name": "Knuckle",
+    "category": "Source projects and experiments",
+    "url": "https://devpost.com/software/knuckle",
+    "description": "Use the hinge to open and close a robot gripper, record a demonstration, replay it, and export the motion data.",
+    "evidence_url": "https://devpost.com/software/knuckle",
+    "evidence_note": "Submission and repository document hinge input driving a real SO-101 gripper through a Python bridge. Physical-phone testing was future work.",
+    "tier": "primary",
+    "availability": "prototype",
+    "checked_at": "2026-10-26",
+    "features": [
+      "hinge-input",
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://devpost.com/software/knuckle",
+      "posture-layout": "https://devpost.com/software/knuckle"
+    },
+    "limitation": "Hackathon prototype requiring robot hardware and a bridge. Replays demonstrations; it does not train a model.",
+    "source_url": "https://github.com/keming-jiao/knuckle",
+    "id": "knuckle"
+  },
+  {
+    "name": "Monster, Ink.",
+    "category": "Source projects and experiments",
+    "url": "https://devpost.com/software/monster-ink",
+    "description": "A focus-game prototype where a cat builds a city on the closed cover; opening the phone releases a destructive monster.",
+    "evidence_url": "https://devpost.com/software/monster-ink",
+    "evidence_note": "Submission and repository document hinge-derived states, outer-display building, partially opened warnings and fully open destruction; all built in the simulator.",
+    "tier": "primary",
+    "availability": "prototype",
+    "checked_at": "2026-10-26",
+    "features": [
+      "hinge-input",
+      "cover-display"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://devpost.com/software/monster-ink",
+      "cover-display": "https://devpost.com/software/monster-ink"
+    },
+    "limitation": "Hackathon source prototype; hardware haptics and actual Screen Time/Focus integration remain future work.",
+    "source_url": "https://github.com/PujaSridhar/Monsters-Ink.",
+    "id": "monster-ink"
+  },
+  {
+    "name": "Pop!",
+    "category": "Source projects and experiments",
+    "url": "https://devpost.com/software/pop-03ba9g",
+    "description": "Create a spoken picture book, fold to turn its pages, and angle the phone to reveal pop-up scenes or add the next story instruction.",
+    "evidence_url": "https://devpost.com/software/pop-03ba9g",
+    "evidence_note": "Team explicitly describes hinge-following page curls, a roughly 90-degree pop-up, voice-input posture, and closed cover; no physical Duo was used.",
+    "tier": "primary",
+    "availability": "prototype",
+    "checked_at": "2026-10-26",
+    "features": [
+      "hinge-input",
+      "posture-layout",
+      "cover-display"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://devpost.com/software/pop-03ba9g",
+      "posture-layout": "https://devpost.com/software/pop-03ba9g",
+      "cover-display": "https://devpost.com/software/pop-03ba9g"
+    },
+    "limitation": "Simulator prototype with cloud generation services; linked GitHub repository returned 404.",
+    "id": "pop"
+  },
+  {
+    "name": "Pop-Up Post",
+    "category": "Source projects and experiments",
+    "url": "https://devpost.com/software/pop-up-post",
+    "description": "Run through a pop-up book, folding to flatten obstacles and opening to raise bridges; closing pauses on the book cover.",
+    "evidence_url": "https://devpost.com/software/pop-up-post",
+    "evidence_note": "Submission and repository map hinge angle to obstacle height and describe closed-display pause/cover/resume behavior.",
+    "tier": "primary",
+    "availability": "prototype",
+    "checked_at": "2026-10-26",
+    "features": [
+      "hinge-input",
+      "cover-display"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://devpost.com/software/pop-up-post",
+      "cover-display": "https://devpost.com/software/pop-up-post"
+    },
+    "limitation": "Source prototype built for the Duo simulator; not a verified App Store release.",
+    "source_url": "https://github.com/FelixIsaac/pop-up-post",
+    "id": "pop-up-post"
+  },
+  {
+    "name": "Pulse - the pocket DJ deck",
+    "category": "Source projects and experiments",
+    "url": "https://devpost.com/software/pulse-the-pocket-dj-deck",
+    "description": "A pocket DJ prototype with waveforms above performance controls and hinge-driven pitch, filters, time stretch or scrubbing.",
+    "evidence_url": "https://devpost.com/software/pulse-the-pocket-dj-deck",
+    "evidence_note": "Developer submission names ArrangementView, onHingeChange and audio-effect mappings, plus the laptop control/visualizer arrangement.",
+    "tier": "primary",
+    "availability": "prototype",
+    "checked_at": "2026-10-26",
+    "features": [
+      "hinge-input",
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://devpost.com/software/pulse-the-pocket-dj-deck",
+      "posture-layout": "https://devpost.com/software/pulse-the-pocket-dj-deck"
+    },
+    "limitation": "Hackathon source prototype; hardware tuning and performance recording/export remain planned.",
+    "source_url": "https://github.com/rishi-thak/pulse",
+    "id": "pulse-the-pocket-dj-deck"
   },
   {
     "name": "Sand Valley",
@@ -1326,12 +3112,15 @@
     "evidence_note": "The README explains hinge-driven slope, sand simulation, simulator screenshots, and source-build requirements. No App Store release verified.",
     "tier": "primary",
     "availability": "source-build",
-    "modes": [
-      "Hinge"
-    ],
     "checked_at": "2026-10-26",
     "source_url": "https://github.com/artemnovichkov/SandValley",
-    "id": "sand-valley"
+    "id": "sand-valley",
+    "features": [
+      "hinge-input"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://github.com/artemnovichkov/SandValley#readme"
+    }
   },
   {
     "name": "SecChain",
@@ -1342,13 +3131,56 @@
     "evidence_note": "Maintainer PR, merged October 14, 2026, contains Duo simulator screenshots. The current README explicitly says it has not released and offers no downloadable build; development signing/setup is required. This is evidence of a prototype layout, not a security review or release claim.",
     "tier": "primary",
     "availability": "source-build",
-    "modes": [
-      "Expanded",
-      "Cover"
-    ],
     "checked_at": "2026-10-26",
     "source_url": "https://github.com/bannzai/SecChain",
-    "id": "secchain"
+    "id": "secchain",
+    "features": [
+      "cover-display"
+    ],
+    "feature_evidence": {
+      "cover-display": "https://github.com/bannzai/SecChain/pull/88"
+    }
+  },
+  {
+    "name": "SLAM",
+    "category": "Source projects and experiments",
+    "url": "https://devpost.com/software/slam-awqbse",
+    "description": "Place a song on each panel, fold to blend them, then move to the cover to hear the generated mashup.",
+    "evidence_url": "https://devpost.com/software/slam-awqbse",
+    "evidence_note": "Team describes continuous hinge-driven mixing visuals, closing-triggered server rendering, and finished playback on the front display; testing used Bitrig's simulator.",
+    "tier": "primary",
+    "availability": "prototype",
+    "checked_at": "2026-10-26",
+    "features": [
+      "hinge-input",
+      "cover-display"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://devpost.com/software/slam-awqbse",
+      "cover-display": "https://devpost.com/software/slam-awqbse"
+    },
+    "limitation": "Simulator prototype with backend services; arbitrary streaming-library integration is future work.",
+    "id": "slam"
+  },
+  {
+    "name": "Unhinged",
+    "category": "Source projects and experiments",
+    "url": "https://devpost.com/software/unhinged-mec7yp",
+    "description": "A simulator prototype that turns hinge movement into tilt commands for a real motorized camera rig.",
+    "evidence_url": "https://devpost.com/software/unhinged-mec7yp",
+    "evidence_note": "The team's submission documents onHingeChange, a Mac-to-Pico bridge and real servos; it explicitly says no physical Duo was available.",
+    "tier": "primary",
+    "availability": "prototype",
+    "checked_at": "2026-10-26",
+    "features": [
+      "hinge-input"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://devpost.com/software/unhinged-mec7yp"
+    },
+    "limitation": "Requires external camera rig, microcontroller and desktop bridge; simulator demo, not an App Store release.",
+    "source_url": "https://github.com/SamisLife/unhinged",
+    "id": "unhinged"
   },
   {
     "name": "Crate Music Library",
@@ -1361,7 +3193,15 @@
     "limitation": "TestFlight beta; coming soon to App Store. Distinct from the Crate MPC hackathon project.",
     "checked_at": "2026-10-26",
     "availability": "beta",
-    "id": "crate-music-library"
+    "id": "crate-music-library",
+    "features": [
+      "posture-layout",
+      "cover-display"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://cratemusicapp.com/",
+      "cover-display": "https://cratemusicapp.com/"
+    }
   },
   {
     "name": "Crate — iPhone Duo MPC",
@@ -1374,7 +3214,15 @@
     "limitation": "Prototype; submission says testing on a physical Duo is future work. Distinct from Crate Music Library.",
     "checked_at": "2026-10-26",
     "availability": "announced",
-    "id": "crate-iphone-duo-mpc"
+    "id": "crate-iphone-duo-mpc",
+    "features": [
+      "hinge-input",
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://devpost.com/software/crate-iphone-duo-mpc",
+      "posture-layout": "https://devpost.com/software/crate-iphone-duo-mpc"
+    }
   },
   {
     "name": "Fold Clock",
@@ -1386,7 +3234,13 @@
     "tier": "primary",
     "checked_at": "2026-10-26",
     "availability": "announced",
-    "id": "fold-clock"
+    "id": "fold-clock",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://bravely.dev/foldclock"
+    }
   },
   {
     "name": "FoldRemote",
@@ -1398,7 +3252,56 @@
     "tier": "primary",
     "availability": "announced",
     "checked_at": "2026-10-26",
-    "id": "foldremote"
+    "id": "foldremote",
+    "features": [
+      "expanded-layout"
+    ],
+    "feature_evidence": {
+      "expanded-layout": "https://foldremote.app/"
+    }
+  },
+  {
+    "name": "Keep It Shut",
+    "category": "Previews and watchlist",
+    "url": "https://tenthroomstudio.com/keepitshut/",
+    "description": "An announced horror game where the phone is a hotel-room door: close it for safety, crack it to peek, and open it to expose the hallway.",
+    "evidence_url": "https://tenthroomstudio.com/keepitshut/",
+    "evidence_note": "Official site says coming soon; its screenshots and controls describe angle-based door states and the gap-under-door view on the closed cover.",
+    "tier": "primary",
+    "availability": "announced",
+    "checked_at": "2026-10-26",
+    "features": [
+      "hinge-input",
+      "cover-display"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://tenthroomstudio.com/keepitshut/",
+      "cover-display": "https://tenthroomstudio.com/keepitshut/"
+    },
+    "limitation": "Official release date remains unannounced; no App Store download was verified.",
+    "id": "keep-it-shut"
+  },
+  {
+    "name": "PicLoom",
+    "category": "Previews and watchlist",
+    "url": "https://apps.apple.com/us/app/picloom-photo-sort-journal/id6812507597",
+    "description": "Preview of a photo journal whose cover opens with the hinge, with a desk-calendar layout when partly folded.",
+    "evidence_url": "https://www.reddit.com/r/iosapps/comments/1xahwvh/i_made_journals_open_like_real_books_on_the/",
+    "evidence_note": "Developer's linked Reddit preview explicitly says the Duo update is not released yet. The current App Store notes do not confirm it.",
+    "tier": "primary",
+    "availability": "announced",
+    "checked_at": "2026-10-26",
+    "features": [
+      "hinge-input",
+      "posture-layout",
+      "cover-display"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://www.reddit.com/r/iosapps/comments/1xahwvh/i_made_journals_open_like_real_books_on_the/",
+      "posture-layout": "https://www.reddit.com/r/iosapps/comments/1xahwvh/i_made_journals_open_like_real_books_on_the/",
+      "cover-display": "https://www.reddit.com/r/iosapps/comments/1xahwvh/i_made_journals_open_like_real_books_on_the/"
+    },
+    "id": "picloom"
   },
   {
     "name": "Takealong",
@@ -1410,6 +3313,12 @@
     "tier": "primary",
     "availability": "beta",
     "checked_at": "2026-10-26",
-    "id": "takealong"
+    "id": "takealong",
+    "features": [
+      "posture-layout"
+    ],
+    "feature_evidence": {
+      "posture-layout": "https://takealong.app/index.html"
+    }
   }
 ]
