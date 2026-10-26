@@ -1,0 +1,87 @@
+[
+  {
+    "id": "tiny-laptops-and-remote-desktops",
+    "name": "Tiny laptops and remote desktops",
+    "description": "Screen above, keyboard or trackpad below. These apps require a separate, reachable computer; setup and supported host systems vary."
+  },
+  {
+    "id": "desktop-workspaces-and-terminals",
+    "name": "Desktop workspaces and terminals",
+    "description": "PXS, XeOS and StealthOS provide workspaces within an iPhone app. SSH clients connect to remote machines; read each entry for where the work runs."
+  },
+  {
+    "id": "notes-and-writing",
+    "name": "Notes and writing",
+    "description": "Notebooks, sketches and writing tools adapted to the fold or expanded display."
+  },
+  {
+    "id": "documents-and-pdfs",
+    "name": "Documents and PDFs",
+    "description": "Compare, edit and sign documents with more room for pages and controls."
+  },
+  {
+    "id": "planning-and-focus",
+    "name": "Planning and focus",
+    "description": "Calendars, tasks and timers that use the extra space or a propped-up pose."
+  },
+  {
+    "id": "reading-and-research",
+    "name": "Reading and research",
+    "description": "Feeds, saved articles and visual thinking. Some entries document layout support without a unique hinge interaction."
+  },
+  {
+    "id": "photos-and-video",
+    "name": "Photos and video",
+    "description": "Capture, edit, watch and present using the available displays and poses."
+  },
+  {
+    "id": "music-and-instruments",
+    "name": "Music and instruments",
+    "description": "Turn the hinge into an instrument or the screen into a miniature music player."
+  },
+  {
+    "id": "games",
+    "name": "Games",
+    "description": "Fold-controlled games, tabletop boards and documented Duo layout adaptations. Specific hinge mechanics are stated only where sourced."
+  },
+  {
+    "id": "playful-objects-and-art",
+    "name": "Playful objects and art",
+    "description": "Small surprises that make the physical shape of the phone part of the experience."
+  },
+  {
+    "id": "fitness-and-outdoors",
+    "name": "Fitness and outdoors",
+    "description": "Workout dashboards and outdoor tools with documented Duo layouts."
+  },
+  {
+    "id": "weather-and-nature",
+    "name": "Weather and nature",
+    "description": "Use the expanded display for forecasts, maps and comparisons."
+  },
+  {
+    "id": "travel-and-navigation",
+    "name": "Travel and navigation",
+    "description": "Plan a journey or follow it with layouts that adapt to the phone."
+  },
+  {
+    "id": "communication",
+    "name": "Communication",
+    "description": "Messages and collaboration with documented Duo support."
+  },
+  {
+    "id": "cooking-and-everyday",
+    "name": "Cooking and everyday",
+    "description": "Everyday workflows made more useful by the folding display."
+  },
+  {
+    "id": "source-projects-and-experiments",
+    "name": "Source projects and experiments",
+    "description": "Buildable projects and prototypes, separate from ordinary downloads. Check each repository for its license, Xcode requirements and test limitations; public source does not necessarily mean an open-source license."
+  },
+  {
+    "id": "previews-and-watchlist",
+    "name": "Previews and watchlist",
+    "description": "Promising ideas whose availability is beta, announced or unconfirmed. A demo or developer claim is not a released feature."
+  }
+]

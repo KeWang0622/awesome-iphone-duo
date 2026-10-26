@@ -1,0 +1,17 @@
+name: Correct an entry
+description: Fix a claim, status, duplicate, or link.
+title: "Correction: "
+body:
+  - type: input
+    id: entry
+    attributes:
+      label: Entry name
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What should change, and why?
+      description: Include a supporting URL or dated hands-on observations where possible.
+    validations:
+      required: true

@@ -1,0 +1,36 @@
+name: Suggest an app
+description: Add an interesting, documented iPhone Duo use.
+title: "Add: "
+body:
+  - type: input
+    id: app
+    attributes:
+      label: App name and official URL
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What makes it useful or interesting on Duo?
+      description: Include requirements and current availability.
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Evidence URL, version and date
+      description: Link to developer documentation, release notes, a demo, or a reliable report. Identify previews.
+    validations:
+      required: true
+  - type: textarea
+    id: testing
+    attributes:
+      label: Hands-on observations, if available
+      description: Include app version and iOS version. Leave blank if you have not tested it.
+  - type: input
+    id: relationship
+    attributes:
+      label: Your relationship to this app
+      placeholder: User, developer, employee, or none.
+    validations:
+      required: true
