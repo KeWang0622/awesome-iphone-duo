@@ -4,9 +4,9 @@
 
 A source-linked field guide to interesting things you can do with [Apple's iPhone Duo](https://www.apple.com/iphone-duo/). Find apps by their documented fold interactions, understand what each setup needs, or explore an experiment you can build on.
 
-**169 apps and projects · 142 available · 10 source builds · 11 prototypes · 6 previews**
+**169 apps and projects · 143 available · 9 source builds · 11 prototypes · 6 previews**
 
-Latest source review: **2026-10-26**. Individual dates and references live in the [catalog](data/apps.json).
+Latest source review: **2026-10-29**. Individual dates and references live in the [catalog](data/apps.json).
 
 [Browse by interaction](docs/interaction-index.md) · [Pocket laptop guide](docs/laptop-guide.md) · [Things to try](docs/workflows.md) · [Search offline](docs/tooling.md) · [Related projects](docs/landscape.md)
 
@@ -167,6 +167,7 @@ Capture, edit, watch and present using the available displays and poses.
 
 Turn the hinge into an instrument or the screen into a miniature music player.
 
+- <a id="app-accorduon"></a>[Accorduon](https://apps.apple.com/us/app/accorduon-foldable-accordion/id6816177737) - Play a piano accordion with the hinge as bellows: melody keys on one half, bass buttons on the other, and faster folding plays louder and brighter. [Primary](https://apps.apple.com/us/app/accorduon-foldable-accordion/id6816177737) · [Source](https://github.com/artemnovichkov/Accorduon). **Needs / limits:** Free with an optional one-time Pro unlock; on other iPhones the bellows work by rocking the phone, dragging, or Auto Air. The GitHub repository is the earlier demo, not the App Store build.
 - <a id="app-aura"></a>[Aura](https://github.com/adrbn/aura) - Listen to a Navidrome or Subsonic library with playback on one side of the open Duo and lyrics or the queue beside it. Requires a Navidrome or Subsonic server. [Primary](https://github.com/adrbn/aura#every-device) · [Source](https://github.com/adrbn/aura).
 - <a id="app-deck-man-cassette-player"></a>[Deck-Man: Cassette Player](https://apps.apple.com/us/app/deck-man-cassette-player/id6817070335) - Browse music as cassette tapes, insert a tape, and shut the Duo to begin playback. Uses Apple Music or local audio files. [Primary](https://apps.apple.com/us/app/deck-man-cassette-player/id6817070335). **Needs / limits:** Paid; supports Apple Music and local music files. Previously called Duo-Man.
 - <a id="app-fold-accordion"></a>[Fold Accordion](https://apps.apple.com/us/app/fold-accordion/id6815058989) - Use the hinge as accordion bellows while playing onscreen keys and learning songs. [Primary](https://apps.apple.com/us/app/fold-accordion/id6815058989). **Needs / limits:** Paid; physical fold mode is Duo-specific, with other input modes on standard iPhones.
@@ -286,7 +287,6 @@ Hinge measurements and small tools with a documented Duo-specific use.
 
 Source projects and research prototypes, separate from ordinary downloads. A prototype may have no public build; code availability does not establish an open-source license or successful hardware testing.
 
-- <a id="app-accorduon"></a>[Accorduon](https://github.com/artemnovichkov/Accorduon) - Play a virtual accordion whose volume and tone respond to hinge movement, with melody keys on one side and bass buttons on the other. [Primary](https://github.com/artemnovichkov/Accorduon#readme) · Build from source · [Source](https://github.com/artemnovichkov/Accorduon).
 - <a id="app-askmeety"></a>[AskMeety](https://devpost.com/software/halfnote) - A meeting-note prototype that folds into video above a scratchpad, collecting approved transcript excerpts and captured frames. [Primary](https://devpost.com/software/halfnote) · Prototype. **Needs / limits:** Real-meeting audio capture, physical hinge behavior and end-to-end exports still need hardware validation.
 - <a id="app-basis"></a>[Basis](https://devpost.com/software/basis-5eykt9) - A hands-on linear algebra demo where folding the phone changes a coordinate basis and reveals what happens near singularity. [Primary](https://devpost.com/software/basis-5eykt9) · Prototype. **Needs / limits:** Simulator prototype. Its claimed simultaneous inner/outer math display is not verified on hardware and is not tagged as a supported cover feature.
 - <a id="app-clawkit"></a>[ClawKit](https://github.com/artemnovichkov/ClawKit) - Turn a half-folded Duo into a miniature claw arcade, with the cabinet above the hinge and joystick controls below. [Primary](https://github.com/artemnovichkov/ClawKit#readme) · Build from source · [Source](https://github.com/artemnovichkov/ClawKit).
