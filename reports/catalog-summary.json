@@ -2,10 +2,10 @@
   "entries": 169,
   "availability": {
     "announced": 4,
-    "available": 142,
+    "available": 143,
     "beta": 2,
     "prototype": 11,
-    "source-build": 10
+    "source-build": 9
   },
   "evidence": {
     "primary": 167,
@@ -19,7 +19,7 @@
     "split-view": 9,
     "support-only": 15
   },
-  "latest_source_review": "2026-10-26",
+  "latest_source_review": "2026-10-29",
   "categories": 18,
   "accepted_physical_device_reports": 0,
   "accepted_simulator_reports": 0

@@ -1329,6 +1329,26 @@
     "id": "teleprompter"
   },
   {
+    "name": "Accorduon",
+    "category": "Music and instruments",
+    "url": "https://apps.apple.com/us/app/accorduon-foldable-accordion/id6816177737",
+    "description": "Play a piano accordion with the hinge as bellows: melody keys on one half, bass buttons on the other, and faster folding plays louder and brighter.",
+    "evidence_url": "https://apps.apple.com/us/app/accorduon-foldable-accordion/id6816177737",
+    "evidence_note": "App Store description (version 1.0.1) says the Duo hinge pushes air through the reeds, with keys and bass on either half when held open like a book. The open-source demo it grew from stays on GitHub.",
+    "tier": "primary",
+    "availability": "available",
+    "checked_at": "2026-10-29",
+    "source_url": "https://github.com/artemnovichkov/Accorduon",
+    "limitation": "Free with an optional one-time Pro unlock; on other iPhones the bellows work by rocking the phone, dragging, or Auto Air. The GitHub repository is the earlier demo, not the App Store build.",
+    "id": "accorduon",
+    "features": [
+      "hinge-input"
+    ],
+    "feature_evidence": {
+      "hinge-input": "https://apps.apple.com/us/app/accorduon-foldable-accordion/id6816177737"
+    }
+  },
+  {
     "name": "Aura",
     "category": "Music and instruments",
     "url": "https://github.com/adrbn/aura",
@@ -2776,25 +2796,6 @@
       "split-view": "https://apps.apple.com/us/app/outspan/id6814314176"
     },
     "id": "outspan"
-  },
-  {
-    "name": "Accorduon",
-    "category": "Source projects and experiments",
-    "url": "https://github.com/artemnovichkov/Accorduon",
-    "description": "Play a virtual accordion whose volume and tone respond to hinge movement, with melody keys on one side and bass buttons on the other.",
-    "evidence_url": "https://github.com/artemnovichkov/Accorduon#readme",
-    "evidence_note": "The maintainer documents hinge-speed-driven bellows and a touch/Auto Air fallback. Source project requires Xcode and iOS 27.1 or later; no App Store release verified.",
-    "tier": "primary",
-    "availability": "source-build",
-    "checked_at": "2026-10-26",
-    "source_url": "https://github.com/artemnovichkov/Accorduon",
-    "id": "accorduon",
-    "features": [
-      "hinge-input"
-    ],
-    "feature_evidence": {
-      "hinge-input": "https://github.com/artemnovichkov/Accorduon#readme"
-    }
   },
   {
     "name": "AskMeety",

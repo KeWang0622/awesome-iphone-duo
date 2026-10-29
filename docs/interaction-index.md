@@ -16,6 +16,7 @@ Folding changes gameplay, sound, an effect or an action. A layout that merely re
 
 | App | Access | Feature evidence |
 | --- | --- | --- |
+| [Accorduon](../README.md#app-accorduon) | Available | [Primary](https://apps.apple.com/us/app/accorduon-foldable-accordion/id6816177737) |
 | [ChompDuo](../README.md#app-chompduo) | Available | [Primary](https://apps.apple.com/us/app/chompduo/id6823172460) |
 | [Clap: Film Slate](../README.md#app-clap-film-slate) | Available | [Primary](https://apps.apple.com/us/app/clap-film-slate/id6824625416) |
 | [Deck-Man: Cassette Player](../README.md#app-deck-man-cassette-player) | Available | [Primary](https://apps.apple.com/us/app/deck-man-cassette-player/id6817070335) |
@@ -57,7 +58,6 @@ Folding changes gameplay, sound, an effect or an action. A layout that merely re
 
 | App | Access | Feature evidence |
 | --- | --- | --- |
-| [Accorduon](../README.md#app-accorduon) | Build from source | [Primary](https://github.com/artemnovichkov/Accorduon#readme) |
 | [Basis](../README.md#app-basis) | Prototype | [Primary](https://devpost.com/software/basis-5eykt9) |
 | [ClawKit](../README.md#app-clawkit) | Build from source | [Primary](https://github.com/artemnovichkov/ClawKit#readme) |
 | [Crate — iPhone Duo MPC](../README.md#app-crate-iphone-duo-mpc) | Prototype | [Primary](https://devpost.com/software/crate-iphone-duo-mpc) |
